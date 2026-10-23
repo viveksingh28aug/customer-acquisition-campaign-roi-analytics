@@ -83,33 +83,32 @@ Operating on 120 days of multi-channel activity across 6 acquisition channels, t
 
 ```mermaid
 flowchart TD
-    subgraph S1["1. Data Generation & Ingestion Layer"]
-        A1["Kaggle & WordStream Industry Distributions"] --> B1["Data Loader Engine (src/data_loader.py)<br/>• Deterministic Calibration (Seed: 42)<br/>• Injected Data Anomalies (Duplicates, Negatives, Nulls)"]
-        B1 --> C1["Raw CSV Layer (data/raw/)<br/>• campaign_spend_raw.csv<br/>• customer_leads_raw.csv<br/>• customer_orders_raw.csv"]
-    end
+    A["Kaggle and WordStream Datasets"] --> B["Data Loader Engine"]
+    B --> C["Raw CSV Layer"]
+    C --> D["Data Cleaning and Validation"]
+    D --> E["Processed Data Layer"]
+    E --> F["Database Engine Detection"]
 
-    subgraph S2["2. Data Validation & Cleaning Pipeline"]
-        C1 --> D1["DataCleaner Engine (src/data_cleaner.py)<br/>• Composite Key Deduplication<br/>• Median CPC Negative Spend Imputation<br/>• Lead Score Median Fill<br/>• Financial Integrity (Net = Gross - Discount)"]
-        D1 --> E1["Clean Processed Layer (data/processed/)<br/>• campaign_spend_clean.csv<br/>• customer_leads_clean.csv<br/>• customer_orders_clean.csv"]
-    end
+    F --> G["PostgreSQL Production Database"]
+    F --> H["DuckDB Local Fallback"]
 
-    subgraph S3["3. Unified Storage Layer"]
-        E1 --> F1{"Database Engine Detection"}
-        F1 -- "PostgreSQL Configured & Reachable" --> G1["PostgreSQL Production Database<br/>• DDL Schema with Foreign Keys & B-Tree Indexes<br/>• Bulk COPY Ingestion"]
-        F1 -- "Offline / Laptop Fallback" --> H1["Embedded DuckDB Engine<br/>• In-Process High Performance SQL<br/>• Dynamic Temporary Views for Global Filters"]
-    end
+    G --> I["SQL Analytics Engine"]
+    H --> I
 
-    subgraph S4["4. Analytical & Statistical Core"]
-        G1 & H1 --> I1["SQL Engine (sql/analytics_queries.sql)<br/>• Multi-Table Attribution CTEs<br/>• Window Functions: NTILE, ROW_NUMBER, DENSE_RANK<br/>• 7-Day Rolling Moving Averages<br/>• Cohort Retention & Cumulative LTV Progression"]
-        G1 & H1 --> I2["KPI Calculator (src/kpi_calculator.py)<br/>• Blended vs Paid Unit Economics<br/>• Safe Division & np.isfinite Guards"]
-        G1 & H1 --> I3["Statistical Engine (src/statistical_analysis.py)<br/>• Chi-Square Test of Independence (Cramér's V)<br/>• Welch's t-test & Mann-Whitney U Test<br/>• 95% Wilson Score Confidence Intervals"]
-        G1 & H1 --> I4["Scenario Planner (src/scenario_planner.py)<br/>• Total Budget Preservation Algorithm<br/>• Diminishing Returns Decay Model"]
-    end
+    I --> J["KPI Calculator"]
+    I --> K["Statistical Analysis Engine"]
+    I --> L["Budget Scenario Planner"]
 
-    subgraph S5["5. Executive Decision Cockpit"]
-        I1 & I2 & I3 & I4 --> J1["Streamlit Application (app.py)<br/>• Glassmorphic Modern UI & Custom CSS<br/>• Native st.html Governance Badges<br/>• Interactive Plotly Sankey, Bubble & Waterfall Charts"]
-    end
+    J --> M["Streamlit Executive Dashboard"]
+    K --> M
+    L --> M
+
+    M --> N["Campaign ROI and CAC Analysis"]
+    M --> O["Cohort Retention and LTV"]
+    M --> P["Statistical Hypothesis Testing"]
+    M --> Q["Budget Reallocation Recommendations"]
 ```
+
 
 ---
 
