@@ -1,0 +1,1441 @@
+campaign_id,campaign_name,channel,date,ad_spend,impressions,clicks,target_audience,region,date_str
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-01,734.09,2949,168,Tech Enthusiasts,North America,2026-01-01
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-02,478.0,4000,244,Tech Enthusiasts,EMEA,2026-01-02
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-03,410.29,1534,92,B2B Professionals,North America,2026-01-03
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-04,491.7,3685,187,Young Adults (18-34),North America,2026-01-04
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-05,705.93,7403,324,Young Adults (18-34),North America,2026-01-05
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-06,990.73,8388,423,Tech Enthusiasts,North America,2026-01-06
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-07,879.72,10527,389,Broad Audience,LATAM,2026-01-07
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-08,1005.25,10097,383,Tech Enthusiasts,North America,2026-01-08
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-09,461.02,4051,146,Broad Audience,North America,2026-01-09
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-10,731.26,5454,276,Tech Enthusiasts,North America,2026-01-10
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-11,884.79,3592,227,Broad Audience,EMEA,2026-01-11
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-12,860.94,10323,422,B2B Professionals,North America,2026-01-12
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-13,742.92,4894,293,Young Adults (18-34),North America,2026-01-13
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-14,839.19,6501,384,B2B Professionals,LATAM,2026-01-14
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-15,982.65,11943,420,Broad Audience,EMEA,2026-01-15
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-16,638.73,5265,196,Young Adults (18-34),North America,2026-01-16
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-17,831.55,5297,238,B2B Professionals,North America,2026-01-17
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-18,562.59,2752,149,Broad Audience,North America,2026-01-18
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-19,459.8,2127,123,Tech Enthusiasts,APAC,2026-01-19
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-20,808.62,5248,251,B2B Professionals,North America,2026-01-20
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-21,519.64,3308,147,Tech Enthusiasts,LATAM,2026-01-21
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-22,655.81,3901,225,B2B Professionals,North America,2026-01-22
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-23,544.88,3863,243,Broad Audience,EMEA,2026-01-23
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-24,835.73,5172,210,Broad Audience,EMEA,2026-01-24
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-25,803.72,4265,190,B2B Professionals,North America,2026-01-25
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-26,498.6,2515,153,B2B Professionals,EMEA,2026-01-26
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-27,760.88,8213,317,Young Adults (18-34),LATAM,2026-01-27
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-28,702.0,3904,219,Young Adults (18-34),LATAM,2026-01-28
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-29,1101.53,8894,444,Young Adults (18-34),North America,2026-01-29
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-30,418.44,2416,121,B2B Professionals,North America,2026-01-30
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-01-31,854.13,8869,349,Young Adults (18-34),LATAM,2026-01-31
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-01,521.03,2489,144,B2B Professionals,EMEA,2026-02-01
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-02,583.89,3073,166,Tech Enthusiasts,North America,2026-02-02
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-03,1022.06,9434,383,B2B Professionals,EMEA,2026-02-03
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-04,923.48,9927,500,B2B Professionals,EMEA,2026-02-04
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-05,608.98,3562,166,Broad Audience,North America,2026-02-05
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-06,570.53,4303,270,Broad Audience,North America,2026-02-06
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-07,729.99,3523,182,Tech Enthusiasts,North America,2026-02-07
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-08,446.55,1693,105,Tech Enthusiasts,North America,2026-02-08
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-09,574.6,2455,152,Broad Audience,APAC,2026-02-09
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-10,901.27,11142,444,Broad Audience,EMEA,2026-02-10
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-11,505.75,4425,243,B2B Professionals,North America,2026-02-11
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-12,842.96,4197,229,B2B Professionals,EMEA,2026-02-12
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-13,518.62,3362,193,Tech Enthusiasts,APAC,2026-02-13
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-14,728.81,5765,218,Young Adults (18-34),North America,2026-02-14
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-15,521.99,2500,117,Broad Audience,EMEA,2026-02-15
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-16,797.41,4817,252,Young Adults (18-34),North America,2026-02-16
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-17,951.53,10383,371,Tech Enthusiasts,North America,2026-02-17
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-18,1087.79,3971,248,Young Adults (18-34),North America,2026-02-18
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-19,1080.2,5703,365,Unspecified,APAC,2026-02-19
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-20,547.22,3171,192,Young Adults (18-34),North America,2026-02-20
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-21,678.4,2791,156,Tech Enthusiasts,North America,2026-02-21
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-22,707.5,4030,158,Tech Enthusiasts,APAC,2026-02-22
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-23,770.38,3727,209,Young Adults (18-34),North America,2026-02-23
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-24,1005.85,4130,252,Broad Audience,EMEA,2026-02-24
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-25,813.45,3761,205,Tech Enthusiasts,APAC,2026-02-25
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-26,1056.25,8407,389,B2B Professionals,EMEA,2026-02-26
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-27,417.97,2652,136,Young Adults (18-34),EMEA,2026-02-27
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-02-28,415.25,3652,218,Young Adults (18-34),North America,2026-02-28
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-01,661.12,4098,170,Tech Enthusiasts,North America,2026-03-01
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-02,425.84,2557,131,Tech Enthusiasts,EMEA,2026-03-02
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-03,1109.91,7764,347,Broad Audience,North America,2026-03-03
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-04,774.36,10738,384,Unspecified,APAC,2026-03-04
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-05,934.98,7985,321,B2B Professionals,North America,2026-03-05
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-06,674.61,3284,180,Young Adults (18-34),LATAM,2026-03-06
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-07,768.95,4367,233,Young Adults (18-34),North America,2026-03-07
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-08,577.99,4233,150,B2B Professionals,North America,2026-03-08
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-09,420.36,1817,102,Young Adults (18-34),North America,2026-03-09
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-10,807.26,6518,262,Young Adults (18-34),North America,2026-03-10
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-11,884.91,6903,251,Young Adults (18-34),EMEA,2026-03-11
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-12,814.46,3615,198,B2B Professionals,North America,2026-03-12
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-13,721.21,7323,385,Broad Audience,EMEA,2026-03-13
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-14,594.08,3425,167,Tech Enthusiasts,LATAM,2026-03-14
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-15,593.05,2155,134,B2B Professionals,North America,2026-03-15
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-16,450.39,6422,243,Tech Enthusiasts,North America,2026-03-16
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-17,699.36,4790,171,Broad Audience,North America,2026-03-17
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-18,573.85,2877,155,Broad Audience,EMEA,2026-03-18
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-19,1002.18,9696,391,Broad Audience,APAC,2026-03-19
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-20,895.25,6650,307,Broad Audience,North America,2026-03-20
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-21,865.38,4386,210,Broad Audience,APAC,2026-03-21
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-22,451.56,2113,106,Broad Audience,North America,2026-03-22
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-23,847.76,8407,297,Broad Audience,North America,2026-03-23
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-24,699.57,2518,160,Tech Enthusiasts,EMEA,2026-03-24
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-25,780.28,6709,301,Tech Enthusiasts,APAC,2026-03-25
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-26,994.74,6677,252,Young Adults (18-34),North America,2026-03-26
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-27,674.76,3650,225,Young Adults (18-34),North America,2026-03-27
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-28,471.5,2278,122,B2B Professionals,North America,2026-03-28
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-29,750.48,6286,375,Tech Enthusiasts,North America,2026-03-29
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-30,442.42,2141,99,Young Adults (18-34),APAC,2026-03-30
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-03-31,1092.03,4236,244,Young Adults (18-34),North America,2026-03-31
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-01,985.72,6243,298,Broad Audience,North America,2026-04-01
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-02,807.89,8989,441,B2B Professionals,North America,2026-04-02
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-03,458.76,2248,129,Tech Enthusiasts,LATAM,2026-04-03
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-04,587.44,3734,228,B2B Professionals,LATAM,2026-04-04
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-05,406.08,2507,91,Broad Audience,EMEA,2026-04-05
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-06,896.48,8679,448,Unspecified,EMEA,2026-04-06
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-07,893.37,4975,242,Tech Enthusiasts,EMEA,2026-04-07
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-08,1063.22,12710,552,Unspecified,APAC,2026-04-08
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-09,784.79,5193,225,B2B Professionals,North America,2026-04-09
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-10,576.68,4553,170,Unspecified,LATAM,2026-04-10
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-11,749.08,5193,230,Broad Audience,EMEA,2026-04-11
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-12,481.31,1876,112,Broad Audience,EMEA,2026-04-12
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-13,706.71,3826,241,Broad Audience,North America,2026-04-13
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-14,516.48,3085,183,Unspecified,North America,2026-04-14
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-15,871.33,4805,308,Broad Audience,APAC,2026-04-15
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-16,792.93,6272,271,B2B Professionals,APAC,2026-04-16
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-17,806.45,2758,179,Tech Enthusiasts,APAC,2026-04-17
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-18,872.38,5021,213,Young Adults (18-34),North America,2026-04-18
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-19,877.03,6091,255,Tech Enthusiasts,EMEA,2026-04-19
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-20,579.08,4968,274,Tech Enthusiasts,APAC,2026-04-20
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-21,825.1,3898,201,Tech Enthusiasts,APAC,2026-04-21
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-22,752.18,9675,347,Broad Audience,EMEA,2026-04-22
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-23,940.05,10104,395,B2B Professionals,North America,2026-04-23
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-24,694.96,5049,243,Broad Audience,North America,2026-04-24
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-25,656.99,3561,167,Tech Enthusiasts,APAC,2026-04-25
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-26,874.76,6337,398,Young Adults (18-34),North America,2026-04-26
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-27,629.57,2832,141,Young Adults (18-34),EMEA,2026-04-27
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-28,650.09,8336,324,B2B Professionals,North America,2026-04-28
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-29,586.77,4103,166,Young Adults (18-34),APAC,2026-04-29
+CMP-101,Google_Search_Q1_Camp1,Google Search,2026-04-30,796.23,5501,221,B2B Professionals,North America,2026-04-30
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-01,605.58,5879,237,B2B Professionals,North America,2026-01-01
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-02,630.39,5813,267,Tech Enthusiasts,EMEA,2026-01-02
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-03,419.66,1968,106,B2B Professionals,APAC,2026-01-03
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-04,860.44,10090,437,Broad Audience,EMEA,2026-01-04
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-05,492.26,4510,208,Young Adults (18-34),EMEA,2026-01-05
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-06,730.57,4162,239,B2B Professionals,North America,2026-01-06
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-07,945.84,4448,224,Tech Enthusiasts,North America,2026-01-07
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-08,779.63,5677,240,Young Adults (18-34),North America,2026-01-08
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-09,410.04,3700,153,Young Adults (18-34),North America,2026-01-09
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-10,845.26,4478,248,Broad Audience,North America,2026-01-10
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-11,443.46,2585,136,Tech Enthusiasts,North America,2026-01-11
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-12,463.79,3922,180,Tech Enthusiasts,EMEA,2026-01-12
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-13,722.56,3027,161,B2B Professionals,North America,2026-01-13
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-14,595.54,6052,241,B2B Professionals,North America,2026-01-14
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-15,608.36,3849,144,Tech Enthusiasts,North America,2026-01-15
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-16,891.19,9012,423,Unspecified,APAC,2026-01-16
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-17,808.54,8049,323,Tech Enthusiasts,LATAM,2026-01-17
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-18,678.38,4654,202,Broad Audience,North America,2026-01-18
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-19,561.84,3782,190,B2B Professionals,North America,2026-01-19
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-20,881.64,6503,341,B2B Professionals,North America,2026-01-20
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-21,832.87,9512,429,B2B Professionals,North America,2026-01-21
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-22,1118.73,7049,418,Young Adults (18-34),EMEA,2026-01-22
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-23,780.11,4639,228,Young Adults (18-34),North America,2026-01-23
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-24,864.76,3330,213,B2B Professionals,EMEA,2026-01-24
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-25,869.17,10244,379,Tech Enthusiasts,EMEA,2026-01-25
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-26,820.91,6405,377,B2B Professionals,North America,2026-01-26
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-27,602.67,2729,150,Tech Enthusiasts,North America,2026-01-27
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-28,1048.25,6151,366,Young Adults (18-34),North America,2026-01-28
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-29,789.17,5241,301,Tech Enthusiasts,North America,2026-01-29
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-30,849.79,5827,299,Broad Audience,EMEA,2026-01-30
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-01-31,458.45,1950,105,Young Adults (18-34),North America,2026-01-31
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-01,797.01,4489,229,Broad Audience,APAC,2026-02-01
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-02,475.84,4239,180,Tech Enthusiasts,North America,2026-02-02
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-03,856.18,3605,221,Young Adults (18-34),APAC,2026-02-03
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-04,569.14,3580,139,Young Adults (18-34),APAC,2026-02-04
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-05,593.7,4323,245,Tech Enthusiasts,EMEA,2026-02-05
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-06,746.97,5357,228,Young Adults (18-34),North America,2026-02-06
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-07,854.23,5380,253,Young Adults (18-34),LATAM,2026-02-07
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-08,476.68,2790,140,Tech Enthusiasts,North America,2026-02-08
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-09,836.06,3714,193,Tech Enthusiasts,LATAM,2026-02-09
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-10,942.02,8127,425,Tech Enthusiasts,North America,2026-02-10
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-11,960.28,3536,222,Young Adults (18-34),North America,2026-02-11
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-12,1115.53,7072,274,Broad Audience,APAC,2026-02-12
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-13,659.42,4130,194,B2B Professionals,North America,2026-02-13
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-14,801.43,9821,442,Young Adults (18-34),EMEA,2026-02-14
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-15,859.93,6914,314,Tech Enthusiasts,North America,2026-02-15
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-16,512.3,4308,169,B2B Professionals,North America,2026-02-16
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-17,761.83,3880,178,Tech Enthusiasts,EMEA,2026-02-17
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-18,508.18,3495,141,Unspecified,North America,2026-02-18
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-19,759.14,5746,373,Tech Enthusiasts,EMEA,2026-02-19
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-20,433.54,2736,113,Broad Audience,North America,2026-02-20
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-21,495.34,5288,260,Tech Enthusiasts,North America,2026-02-21
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-22,787.76,5124,260,Young Adults (18-34),North America,2026-02-22
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-23,679.82,7563,306,Broad Audience,LATAM,2026-02-23
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-24,733.32,5320,289,Young Adults (18-34),North America,2026-02-24
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-25,597.6,2921,160,B2B Professionals,North America,2026-02-25
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-26,644.42,5001,178,B2B Professionals,APAC,2026-02-26
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-27,489.27,3250,137,B2B Professionals,North America,2026-02-27
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-02-28,761.13,3088,185,Young Adults (18-34),EMEA,2026-02-28
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-01,502.49,3118,193,B2B Professionals,North America,2026-03-01
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-02,503.94,6651,269,Tech Enthusiasts,North America,2026-03-02
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-03,1057.92,5833,264,Young Adults (18-34),North America,2026-03-03
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-04,868.93,6403,344,Young Adults (18-34),EMEA,2026-03-04
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-05,772.58,4680,297,Broad Audience,North America,2026-03-05
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-06,834.23,4317,267,Broad Audience,North America,2026-03-06
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-07,411.23,3161,162,Tech Enthusiasts,North America,2026-03-07
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-08,469.68,1782,115,Tech Enthusiasts,North America,2026-03-08
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-09,536.15,4629,289,B2B Professionals,EMEA,2026-03-09
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-10,671.28,3721,203,Broad Audience,North America,2026-03-10
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-11,506.87,3758,233,Broad Audience,EMEA,2026-03-11
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-12,875.32,6035,243,Broad Audience,North America,2026-03-12
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-13,591.57,5053,184,B2B Professionals,EMEA,2026-03-13
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-14,441.4,3021,128,Young Adults (18-34),North America,2026-03-14
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-15,577.84,3506,154,Tech Enthusiasts,North America,2026-03-15
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-16,731.84,2966,169,B2B Professionals,North America,2026-03-16
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-17,663.92,5308,194,Young Adults (18-34),EMEA,2026-03-17
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-18,708.9,4764,182,B2B Professionals,EMEA,2026-03-18
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-19,809.68,4599,221,B2B Professionals,APAC,2026-03-19
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-20,799.71,5027,217,Tech Enthusiasts,North America,2026-03-20
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-21,445.79,2659,104,Unspecified,North America,2026-03-21
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-22,492.57,2451,150,Tech Enthusiasts,APAC,2026-03-22
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-23,729.39,3274,198,B2B Professionals,North America,2026-03-23
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-24,638.26,2242,142,B2B Professionals,EMEA,2026-03-24
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-25,1078.28,9051,471,Broad Audience,North America,2026-03-25
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-26,935.89,5722,359,Unspecified,LATAM,2026-03-26
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-27,637.11,2552,154,Young Adults (18-34),APAC,2026-03-27
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-28,418.5,2911,122,B2B Professionals,North America,2026-03-28
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-29,748.14,4846,275,B2B Professionals,North America,2026-03-29
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-30,669.75,3814,170,Tech Enthusiasts,APAC,2026-03-30
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-03-31,884.91,10186,364,Broad Audience,North America,2026-03-31
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-01,1046.69,5128,324,Broad Audience,LATAM,2026-04-01
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-02,719.19,3931,185,Young Adults (18-34),EMEA,2026-04-02
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-03,836.84,3221,187,Young Adults (18-34),North America,2026-04-03
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-04,768.79,8195,314,Young Adults (18-34),North America,2026-04-04
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-05,548.15,6204,225,B2B Professionals,LATAM,2026-04-05
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-06,613.89,3899,216,B2B Professionals,LATAM,2026-04-06
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-07,991.47,10204,485,Broad Audience,LATAM,2026-04-07
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-08,792.13,5723,229,Unspecified,North America,2026-04-08
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-09,1089.21,5748,306,Tech Enthusiasts,North America,2026-04-09
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-10,488.26,5000,203,Broad Audience,North America,2026-04-10
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-11,428.92,1576,97,Broad Audience,LATAM,2026-04-11
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-12,486.95,2926,169,Tech Enthusiasts,North America,2026-04-12
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-13,807.92,8030,335,Tech Enthusiasts,EMEA,2026-04-13
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-14,862.55,6865,421,Young Adults (18-34),North America,2026-04-14
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-15,1055.47,3943,240,Broad Audience,EMEA,2026-04-15
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-16,844.29,8761,414,Young Adults (18-34),North America,2026-04-16
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-17,761.71,6465,242,B2B Professionals,EMEA,2026-04-17
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-18,438.07,2126,106,Young Adults (18-34),EMEA,2026-04-18
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-19,812.34,5348,296,Tech Enthusiasts,North America,2026-04-19
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-20,839.31,3871,212,Broad Audience,APAC,2026-04-20
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-21,942.73,4148,232,Tech Enthusiasts,EMEA,2026-04-21
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-22,970.45,7081,435,Broad Audience,North America,2026-04-22
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-23,1016.14,10498,473,Tech Enthusiasts,North America,2026-04-23
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-24,808.98,3962,199,B2B Professionals,North America,2026-04-24
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-25,708.46,2946,159,Young Adults (18-34),EMEA,2026-04-25
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-26,669.99,4475,171,Broad Audience,EMEA,2026-04-26
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-27,881.5,5983,323,Broad Audience,North America,2026-04-27
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-28,1085.77,7992,296,Young Adults (18-34),EMEA,2026-04-28
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-29,542.09,3526,160,Tech Enthusiasts,North America,2026-04-29
+CMP-102,Google_Search_Q1_Camp2,Google Search,2026-04-30,1044.71,3668,235,Tech Enthusiasts,North America,2026-04-30
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-01,1193.7,73254,1351,Young Adults (18-34),North America,2026-01-01
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-02,962.24,20135,542,Young Adults (18-34),LATAM,2026-01-02
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-03,755.71,24303,517,Broad Audience,EMEA,2026-01-03
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-04,632.46,20784,657,Tech Enthusiasts,North America,2026-01-04
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-05,1070.52,38091,1015,Broad Audience,North America,2026-01-05
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-06,1103.89,33894,796,Unspecified,North America,2026-01-06
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-07,1295.57,50130,1116,B2B Professionals,EMEA,2026-01-07
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-08,901.39,16239,446,Unspecified,North America,2026-01-08
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-09,1021.17,16068,537,Broad Audience,APAC,2026-01-09
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-10,875.73,45682,852,Broad Audience,EMEA,2026-01-10
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-11,977.92,31996,651,B2B Professionals,EMEA,2026-01-11
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-12,758.18,24288,676,B2B Professionals,EMEA,2026-01-12
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-13,826.75,17721,429,Young Adults (18-34),North America,2026-01-13
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-14,679.34,17826,492,Tech Enthusiasts,North America,2026-01-14
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-15,1146.24,16936,569,B2B Professionals,North America,2026-01-15
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-16,562.96,12667,478,B2B Professionals,North America,2026-01-16
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-17,870.89,16579,484,B2B Professionals,North America,2026-01-17
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-18,810.63,33423,836,B2B Professionals,North America,2026-01-18
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-19,738.15,24428,717,Tech Enthusiasts,APAC,2026-01-19
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-20,775.11,35836,720,Tech Enthusiasts,EMEA,2026-01-20
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-21,648.69,16071,306,Tech Enthusiasts,EMEA,2026-01-21
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-22,1278.23,20684,704,Young Adults (18-34),APAC,2026-01-22
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-23,548.07,9187,266,Broad Audience,North America,2026-01-23
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-24,886.15,17375,567,B2B Professionals,North America,2026-01-24
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-25,648.26,17157,608,B2B Professionals,LATAM,2026-01-25
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-26,702.14,18938,640,Tech Enthusiasts,North America,2026-01-26
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-27,1041.52,25300,571,Unspecified,LATAM,2026-01-27
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-28,1112.74,31451,994,B2B Professionals,North America,2026-01-28
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-29,818.26,15665,554,Tech Enthusiasts,EMEA,2026-01-29
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-30,755.3,22540,573,Unspecified,North America,2026-01-30
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-01-31,1020.22,23345,625,Tech Enthusiasts,North America,2026-01-31
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-01,1024.05,18725,495,Young Adults (18-34),EMEA,2026-02-01
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-02,1047.42,30302,923,Tech Enthusiasts,EMEA,2026-02-02
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-03,723.68,11000,398,B2B Professionals,North America,2026-02-03
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-04,1353.55,35226,1236,Young Adults (18-34),North America,2026-02-04
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-05,1278.06,31099,880,Young Adults (18-34),EMEA,2026-02-05
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-06,598.11,11607,434,Young Adults (18-34),EMEA,2026-02-06
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-07,695.11,17751,366,Unspecified,North America,2026-02-07
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-08,641.63,31549,675,Tech Enthusiasts,North America,2026-02-08
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-09,997.33,30294,696,Tech Enthusiasts,EMEA,2026-02-09
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-10,750.28,37206,697,Tech Enthusiasts,EMEA,2026-02-10
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-11,980.97,14451,493,Tech Enthusiasts,APAC,2026-02-11
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-12,779.38,33254,778,B2B Professionals,EMEA,2026-02-12
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-13,1061.96,57479,1175,Young Adults (18-34),LATAM,2026-02-13
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-14,689.69,23843,449,B2B Professionals,LATAM,2026-02-14
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-15,1079.07,33993,1259,Tech Enthusiasts,APAC,2026-02-15
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-16,772.84,17964,499,Tech Enthusiasts,North America,2026-02-16
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-17,647.48,15922,511,B2B Professionals,EMEA,2026-02-17
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-18,1352.43,44003,1384,Young Adults (18-34),APAC,2026-02-18
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-19,757.86,12197,424,Broad Audience,EMEA,2026-02-19
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-20,798.3,13398,474,Tech Enthusiasts,North America,2026-02-20
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-21,1058.57,18839,594,B2B Professionals,EMEA,2026-02-21
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-22,736.32,21110,425,Tech Enthusiasts,LATAM,2026-02-22
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-23,528.93,9296,243,Broad Audience,APAC,2026-02-23
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-24,1050.26,15968,568,Young Adults (18-34),North America,2026-02-24
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-25,1125.7,17445,580,Broad Audience,North America,2026-02-25
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-26,1238.38,42333,1223,B2B Professionals,North America,2026-02-26
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-27,719.88,16264,519,Young Adults (18-34),North America,2026-02-27
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-02-28,642.53,21024,474,B2B Professionals,EMEA,2026-02-28
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-01,900.93,19582,534,Young Adults (18-34),APAC,2026-03-01
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-02,811.45,29276,542,Young Adults (18-34),North America,2026-03-02
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-03,924.12,19705,565,Tech Enthusiasts,APAC,2026-03-03
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-04,1234.74,18269,678,B2B Professionals,North America,2026-03-04
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-05,630.67,10149,365,B2B Professionals,LATAM,2026-03-05
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-06,536.16,10106,253,B2B Professionals,North America,2026-03-06
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-07,654.07,21908,529,Broad Audience,EMEA,2026-03-07
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-08,686.78,12684,410,Young Adults (18-34),North America,2026-03-08
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-09,573.13,16538,523,B2B Professionals,EMEA,2026-03-09
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-10,1156.78,39630,1163,Young Adults (18-34),LATAM,2026-03-10
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-11,987.66,17548,509,B2B Professionals,EMEA,2026-03-11
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-12,1338.55,23412,805,Broad Audience,North America,2026-03-12
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-13,627.23,14263,374,Broad Audience,LATAM,2026-03-13
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-14,712.05,18089,608,Young Adults (18-34),APAC,2026-03-14
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-15,754.24,21596,430,Tech Enthusiasts,North America,2026-03-15
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-16,851.97,24161,791,Broad Audience,North America,2026-03-16
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-17,696.79,25616,790,Tech Enthusiasts,EMEA,2026-03-17
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-18,798.96,19371,579,Young Adults (18-34),LATAM,2026-03-18
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-19,727.33,15563,406,Young Adults (18-34),EMEA,2026-03-19
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-20,915.46,20322,418,B2B Professionals,EMEA,2026-03-20
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-21,847.03,35429,694,B2B Professionals,APAC,2026-03-21
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-22,615.12,21213,478,Young Adults (18-34),North America,2026-03-22
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-23,811.44,25347,862,B2B Professionals,EMEA,2026-03-23
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-24,1285.06,25925,743,Young Adults (18-34),North America,2026-03-24
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-25,1127.12,16454,514,Tech Enthusiasts,EMEA,2026-03-25
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-26,973.9,35731,1045,Unspecified,North America,2026-03-26
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-27,914.0,28380,815,B2B Professionals,North America,2026-03-27
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-28,953.7,23068,722,Broad Audience,LATAM,2026-03-28
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-29,640.79,21901,461,Unspecified,LATAM,2026-03-29
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-30,823.97,14567,414,Tech Enthusiasts,North America,2026-03-30
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-03-31,1191.45,33747,1165,Broad Audience,EMEA,2026-03-31
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-01,652.12,22224,517,Young Adults (18-34),North America,2026-04-01
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-02,1327.72,34466,831,Young Adults (18-34),North America,2026-04-02
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-03,860.36,15279,556,Young Adults (18-34),LATAM,2026-04-03
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-04,1010.85,24390,893,B2B Professionals,APAC,2026-04-04
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-05,728.37,10095,357,Broad Audience,APAC,2026-04-05
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-06,682.81,27283,711,B2B Professionals,EMEA,2026-04-06
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-07,884.57,13238,408,Broad Audience,North America,2026-04-07
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-08,1271.51,21844,606,Tech Enthusiasts,APAC,2026-04-08
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-09,756.13,19019,494,B2B Professionals,North America,2026-04-09
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-10,540.9,29512,611,Unspecified,EMEA,2026-04-10
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-11,1079.49,31027,752,Tech Enthusiasts,North America,2026-04-11
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-12,563.4,14694,328,Tech Enthusiasts,EMEA,2026-04-12
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-13,591.21,18830,633,Young Adults (18-34),North America,2026-04-13
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-14,1371.15,46299,1477,Unspecified,North America,2026-04-14
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-15,731.69,29959,721,B2B Professionals,EMEA,2026-04-15
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-16,671.72,11493,436,Broad Audience,EMEA,2026-04-16
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-17,683.75,14155,404,Young Adults (18-34),North America,2026-04-17
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-18,1031.96,32339,708,Young Adults (18-34),North America,2026-04-18
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-19,996.52,16204,541,B2B Professionals,North America,2026-04-19
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-20,788.81,38799,900,Broad Audience,North America,2026-04-20
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-21,1026.48,49335,900,B2B Professionals,LATAM,2026-04-21
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-22,1226.15,20571,571,B2B Professionals,EMEA,2026-04-22
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-23,965.78,24296,485,Young Adults (18-34),North America,2026-04-23
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-24,694.81,13662,376,Young Adults (18-34),North America,2026-04-24
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-25,775.67,11327,406,Unspecified,APAC,2026-04-25
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-26,689.24,14466,387,Young Adults (18-34),APAC,2026-04-26
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-27,523.06,9291,253,Tech Enthusiasts,EMEA,2026-04-27
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-28,1296.34,25034,758,B2B Professionals,EMEA,2026-04-28
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-29,737.63,14126,399,Tech Enthusiasts,North America,2026-04-29
+CMP-103,Meta_Ads_Q1_Camp1,Meta Ads,2026-04-30,688.59,19442,378,B2B Professionals,North America,2026-04-30
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-01,1342.38,29004,727,Young Adults (18-34),North America,2026-01-01
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-02,964.79,25479,553,B2B Professionals,North America,2026-01-02
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-03,896.18,20428,476,B2B Professionals,North America,2026-01-03
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-04,1080.72,25910,865,Tech Enthusiasts,North America,2026-01-04
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-05,623.41,20263,614,Broad Audience,EMEA,2026-01-05
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-06,1022.73,30184,1128,Broad Audience,North America,2026-01-06
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-07,1359.98,27589,818,Tech Enthusiasts,APAC,2026-01-07
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-08,1117.36,44093,1092,Broad Audience,North America,2026-01-08
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-09,723.3,18814,504,Tech Enthusiasts,LATAM,2026-01-09
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-10,644.42,28930,635,Broad Audience,EMEA,2026-01-10
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-11,671.54,9765,344,Broad Audience,LATAM,2026-01-11
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-12,651.34,12789,348,Broad Audience,EMEA,2026-01-12
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-13,1207.34,32252,695,Tech Enthusiasts,LATAM,2026-01-13
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-14,1328.04,68650,1462,B2B Professionals,EMEA,2026-01-14
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-15,1238.34,38659,1087,Broad Audience,EMEA,2026-01-15
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-16,825.34,17786,501,Young Adults (18-34),EMEA,2026-01-16
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-17,913.33,14645,450,Broad Audience,North America,2026-01-17
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-18,776.93,39243,900,Tech Enthusiasts,LATAM,2026-01-18
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-19,559.51,11793,401,B2B Professionals,EMEA,2026-01-19
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-20,1174.8,32076,698,Young Adults (18-34),APAC,2026-01-20
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-21,1040.67,36544,1214,B2B Professionals,EMEA,2026-01-21
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-22,776.86,14275,362,Young Adults (18-34),North America,2026-01-22
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-23,683.36,8859,336,Young Adults (18-34),North America,2026-01-23
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-24,933.24,15270,456,Young Adults (18-34),North America,2026-01-24
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-25,917.37,35305,1073,Young Adults (18-34),APAC,2026-01-25
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-26,555.79,12237,338,Tech Enthusiasts,North America,2026-01-26
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-27,1059.99,22558,659,Tech Enthusiasts,EMEA,2026-01-27
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-28,1228.74,29303,1011,Young Adults (18-34),North America,2026-01-28
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-29,668.91,15253,514,Tech Enthusiasts,APAC,2026-01-29
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-30,810.36,26779,561,Young Adults (18-34),North America,2026-01-30
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-01-31,553.16,16052,481,Tech Enthusiasts,LATAM,2026-01-31
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-01,1059.87,23349,617,Tech Enthusiasts,APAC,2026-02-01
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-02,571.0,11667,406,Young Adults (18-34),EMEA,2026-02-02
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-03,1065.83,38384,969,Young Adults (18-34),North America,2026-02-03
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-04,643.14,13895,326,Tech Enthusiasts,North America,2026-02-04
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-05,1330.51,41664,1108,Broad Audience,APAC,2026-02-05
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-06,611.66,11633,316,Young Adults (18-34),North America,2026-02-06
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-07,548.36,10705,299,Young Adults (18-34),EMEA,2026-02-07
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-08,959.31,29829,901,B2B Professionals,APAC,2026-02-08
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-09,894.17,21517,417,B2B Professionals,North America,2026-02-09
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-10,821.28,19183,693,B2B Professionals,North America,2026-02-10
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-11,1194.55,24422,819,B2B Professionals,North America,2026-02-11
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-12,650.21,19236,695,B2B Professionals,EMEA,2026-02-12
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-13,746.66,15723,566,B2B Professionals,EMEA,2026-02-13
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-14,1078.04,18265,671,B2B Professionals,North America,2026-02-14
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-15,656.09,9488,357,Young Adults (18-34),EMEA,2026-02-15
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-16,618.86,14040,383,Unspecified,EMEA,2026-02-16
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-17,887.13,41997,883,B2B Professionals,North America,2026-02-17
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-18,1262.96,27574,785,B2B Professionals,APAC,2026-02-18
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-19,1167.11,38530,1239,Tech Enthusiasts,North America,2026-02-19
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-20,774.98,24160,515,Broad Audience,APAC,2026-02-20
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-21,901.41,23289,611,Tech Enthusiasts,EMEA,2026-02-21
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-22,537.36,10196,348,Young Adults (18-34),North America,2026-02-22
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-23,971.77,37372,866,B2B Professionals,North America,2026-02-23
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-24,1192.56,34754,768,Broad Audience,APAC,2026-02-24
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-25,1277.93,40333,1090,Unspecified,APAC,2026-02-25
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-26,645.38,25221,688,Broad Audience,EMEA,2026-02-26
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-27,798.69,25822,804,Broad Audience,North America,2026-02-27
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-02-28,965.37,20294,448,Tech Enthusiasts,North America,2026-02-28
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-01,975.71,19484,598,Broad Audience,North America,2026-03-01
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-02,1049.05,31570,668,Tech Enthusiasts,APAC,2026-03-02
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-03,862.57,11876,429,Young Adults (18-34),LATAM,2026-03-03
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-04,730.53,29975,650,Broad Audience,EMEA,2026-03-04
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-05,739.08,16861,511,B2B Professionals,APAC,2026-03-05
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-06,982.16,17165,641,Young Adults (18-34),LATAM,2026-03-06
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-07,900.75,24719,527,Broad Audience,North America,2026-03-07
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-08,597.34,23565,688,Tech Enthusiasts,EMEA,2026-03-08
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-09,1034.15,33098,1080,B2B Professionals,APAC,2026-03-09
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-10,1239.3,24344,784,Young Adults (18-34),North America,2026-03-10
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-11,1241.23,33550,844,Young Adults (18-34),APAC,2026-03-11
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-12,876.41,25061,808,Broad Audience,North America,2026-03-12
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-13,643.92,24760,618,Young Adults (18-34),EMEA,2026-03-13
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-14,890.69,21040,527,Broad Audience,North America,2026-03-14
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-15,1087.46,31034,637,Tech Enthusiasts,North America,2026-03-15
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-16,911.8,44888,965,Broad Audience,North America,2026-03-16
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-17,1252.78,33055,1020,Tech Enthusiasts,EMEA,2026-03-17
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-18,853.98,40238,751,Young Adults (18-34),EMEA,2026-03-18
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-19,1328.73,19657,655,Broad Audience,EMEA,2026-03-19
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-20,656.17,10059,316,Tech Enthusiasts,North America,2026-03-20
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-21,768.23,14791,522,Tech Enthusiasts,North America,2026-03-21
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-22,1086.08,41057,1086,B2B Professionals,EMEA,2026-03-22
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-23,1050.85,24312,855,Young Adults (18-34),LATAM,2026-03-23
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-24,1190.47,33442,614,Unspecified,EMEA,2026-03-24
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-25,853.56,18323,433,Broad Audience,North America,2026-03-25
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-26,1152.76,36576,729,B2B Professionals,North America,2026-03-26
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-27,781.26,20722,621,Young Adults (18-34),North America,2026-03-27
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-28,945.92,28648,1033,Broad Audience,EMEA,2026-03-28
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-29,855.93,19164,416,B2B Professionals,North America,2026-03-29
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-30,976.75,36720,1089,Unspecified,APAC,2026-03-30
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-03-31,1016.08,31333,1085,Tech Enthusiasts,North America,2026-03-31
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-01,695.39,10642,334,Broad Audience,APAC,2026-04-01
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-02,1053.83,25555,680,Young Adults (18-34),North America,2026-04-02
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-03,964.33,16178,580,Young Adults (18-34),EMEA,2026-04-03
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-04,878.78,16597,532,B2B Professionals,EMEA,2026-04-04
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-05,562.53,14772,410,Tech Enthusiasts,LATAM,2026-04-05
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-06,860.39,16497,464,Tech Enthusiasts,North America,2026-04-06
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-07,815.79,22185,609,B2B Professionals,North America,2026-04-07
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-08,832.61,15633,385,Young Adults (18-34),North America,2026-04-08
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-09,1083.09,39792,881,Tech Enthusiasts,North America,2026-04-09
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-10,504.6,23486,440,B2B Professionals,North America,2026-04-10
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-11,981.55,21413,605,Young Adults (18-34),LATAM,2026-04-11
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-12,738.21,25114,762,B2B Professionals,North America,2026-04-12
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-13,804.45,14208,396,Tech Enthusiasts,LATAM,2026-04-13
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-14,723.62,22864,592,Young Adults (18-34),North America,2026-04-14
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-15,1305.71,23841,719,Young Adults (18-34),APAC,2026-04-15
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-16,1341.3,37934,684,Tech Enthusiasts,North America,2026-04-16
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-17,654.56,23374,703,Tech Enthusiasts,North America,2026-04-17
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-18,730.3,19620,498,B2B Professionals,North America,2026-04-18
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-19,950.71,51266,1005,Young Adults (18-34),LATAM,2026-04-19
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-20,901.14,20207,510,Tech Enthusiasts,North America,2026-04-20
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-21,1102.07,17486,529,Broad Audience,EMEA,2026-04-21
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-22,715.42,17848,345,Tech Enthusiasts,North America,2026-04-22
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-23,633.78,18660,446,Young Adults (18-34),EMEA,2026-04-23
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-24,526.24,17721,517,Young Adults (18-34),EMEA,2026-04-24
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-25,891.37,14034,447,Young Adults (18-34),EMEA,2026-04-25
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-26,665.23,15571,526,Young Adults (18-34),APAC,2026-04-26
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-27,993.45,13596,494,Young Adults (18-34),North America,2026-04-27
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-28,1061.65,26147,785,Tech Enthusiasts,EMEA,2026-04-28
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-29,905.91,31641,842,B2B Professionals,APAC,2026-04-29
+CMP-104,Meta_Ads_Q1_Camp2,Meta Ads,2026-04-30,884.41,45113,835,Tech Enthusiasts,EMEA,2026-04-30
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-01,566.59,8445,116,Young Adults (18-34),EMEA,2026-01-01
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-02,572.6,8144,90,Unspecified,North America,2026-01-02
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-03,609.72,7906,117,B2B Professionals,EMEA,2026-01-03
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-04,733.81,13339,114,B2B Professionals,North America,2026-01-04
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-05,372.01,4304,80,Young Adults (18-34),North America,2026-01-05
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-06,881.3,8090,173,Young Adults (18-34),APAC,2026-01-06
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-07,714.16,3765,82,Young Adults (18-34),LATAM,2026-01-07
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-08,594.08,7206,92,Tech Enthusiasts,North America,2026-01-08
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-09,549.17,4071,76,Broad Audience,North America,2026-01-09
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-10,436.05,6993,75,B2B Professionals,North America,2026-01-10
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-11,421.61,2846,45,Young Adults (18-34),EMEA,2026-01-11
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-12,362.64,3160,53,Young Adults (18-34),North America,2026-01-12
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-13,934.04,6217,104,Tech Enthusiasts,EMEA,2026-01-13
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-14,488.24,8769,75,Young Adults (18-34),EMEA,2026-01-14
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-15,503.11,2556,53,Tech Enthusiasts,EMEA,2026-01-15
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-16,691.49,7027,134,B2B Professionals,APAC,2026-01-16
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-17,424.1,2215,47,B2B Professionals,North America,2026-01-17
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-18,741.44,5326,107,Tech Enthusiasts,North America,2026-01-18
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-19,428.6,4125,77,Young Adults (18-34),EMEA,2026-01-19
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-20,651.93,4374,88,Unspecified,North America,2026-01-20
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-21,840.48,6238,100,Unspecified,North America,2026-01-21
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-22,436.46,3463,49,Broad Audience,APAC,2026-01-22
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-23,328.11,2521,36,Tech Enthusiasts,EMEA,2026-01-23
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-24,716.87,10561,155,Tech Enthusiasts,EMEA,2026-01-24
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-25,611.64,9678,118,Young Adults (18-34),APAC,2026-01-25
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-26,425.44,3550,76,B2B Professionals,LATAM,2026-01-26
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-27,755.71,7175,87,B2B Professionals,EMEA,2026-01-27
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-28,844.21,10200,102,Broad Audience,APAC,2026-01-28
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-29,745.43,4485,89,Tech Enthusiasts,North America,2026-01-29
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-30,519.43,7734,106,Young Adults (18-34),North America,2026-01-30
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-01-31,456.97,4659,90,Broad Audience,North America,2026-01-31
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-01,729.8,8364,102,B2B Professionals,EMEA,2026-02-01
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-02,657.53,9306,81,B2B Professionals,North America,2026-02-02
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-03,541.1,7960,95,Broad Audience,LATAM,2026-02-03
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-04,602.87,5279,66,Young Adults (18-34),North America,2026-02-04
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-05,735.27,4741,78,Young Adults (18-34),EMEA,2026-02-05
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-06,355.31,2592,39,Young Adults (18-34),EMEA,2026-02-06
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-07,581.15,6778,119,B2B Professionals,EMEA,2026-02-07
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-08,670.14,4957,78,Tech Enthusiasts,North America,2026-02-08
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-09,648.91,7356,110,Young Adults (18-34),North America,2026-02-09
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-10,729.13,8224,152,Young Adults (18-34),North America,2026-02-10
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-11,662.51,11713,139,Tech Enthusiasts,North America,2026-02-11
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-12,847.13,16323,187,Tech Enthusiasts,North America,2026-02-12
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-13,345.85,4581,54,Broad Audience,North America,2026-02-13
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-14,655.02,5187,73,Broad Audience,North America,2026-02-14
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-15,733.84,8400,148,Young Adults (18-34),North America,2026-02-15
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-16,584.72,8931,72,B2B Professionals,EMEA,2026-02-16
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-17,749.84,4288,80,Unspecified,EMEA,2026-02-17
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-18,542.65,5647,107,Tech Enthusiasts,North America,2026-02-18
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-19,577.53,4131,62,Young Adults (18-34),North America,2026-02-19
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-20,394.0,4705,62,B2B Professionals,APAC,2026-02-20
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-21,487.43,2813,56,B2B Professionals,EMEA,2026-02-21
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-22,512.53,5172,57,Tech Enthusiasts,EMEA,2026-02-22
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-23,432.89,4847,83,Tech Enthusiasts,North America,2026-02-23
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-24,737.72,6283,113,B2B Professionals,APAC,2026-02-24
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-25,536.67,9531,84,B2B Professionals,EMEA,2026-02-25
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-26,525.52,7311,60,Young Adults (18-34),North America,2026-02-26
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-27,308.7,4350,60,Young Adults (18-34),North America,2026-02-27
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-02-28,538.92,8846,72,Young Adults (18-34),LATAM,2026-02-28
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-01,533.56,5418,67,Broad Audience,APAC,2026-03-01
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-02,534.58,5739,56,B2B Professionals,APAC,2026-03-02
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-03,829.02,13824,162,B2B Professionals,North America,2026-03-03
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-04,809.89,8855,114,Young Adults (18-34),North America,2026-03-04
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-05,543.64,3234,70,Broad Audience,North America,2026-03-05
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-06,704.35,4385,83,Young Adults (18-34),North America,2026-03-06
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-07,436.31,8039,90,B2B Professionals,North America,2026-03-07
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-08,636.35,10442,92,Unspecified,LATAM,2026-03-08
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-09,653.34,4416,69,Unspecified,North America,2026-03-09
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-10,580.7,9588,103,B2B Professionals,EMEA,2026-03-10
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-11,814.49,10937,110,Broad Audience,EMEA,2026-03-11
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-12,593.34,6444,75,Young Adults (18-34),LATAM,2026-03-12
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-13,430.73,3030,62,Tech Enthusiasts,North America,2026-03-13
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-14,366.29,4752,80,Young Adults (18-34),North America,2026-03-14
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-15,731.07,8957,102,Tech Enthusiasts,EMEA,2026-03-15
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-16,334.31,2901,56,Young Adults (18-34),EMEA,2026-03-16
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-17,618.46,12693,131,Young Adults (18-34),North America,2026-03-17
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-18,403.11,2116,46,Broad Audience,APAC,2026-03-18
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-19,511.11,5020,54,Unspecified,LATAM,2026-03-19
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-20,620.28,4069,65,Young Adults (18-34),North America,2026-03-20
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-21,567.1,6940,116,Unspecified,North America,2026-03-21
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-22,656.67,3394,72,Unspecified,EMEA,2026-03-22
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-23,739.79,8671,89,Young Adults (18-34),EMEA,2026-03-23
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-24,514.13,3807,66,B2B Professionals,EMEA,2026-03-24
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-25,809.04,14076,115,B2B Professionals,North America,2026-03-25
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-26,895.98,9359,158,B2B Professionals,North America,2026-03-26
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-27,681.62,8890,83,Young Adults (18-34),North America,2026-03-27
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-28,516.4,6832,66,Young Adults (18-34),North America,2026-03-28
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-29,713.79,8691,75,Broad Audience,North America,2026-03-29
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-30,476.61,2732,57,Unspecified,EMEA,2026-03-30
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-03-31,575.88,5905,68,Tech Enthusiasts,North America,2026-03-31
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-01,744.35,12169,130,Broad Audience,North America,2026-04-01
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-02,659.6,13692,117,B2B Professionals,North America,2026-04-02
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-03,690.05,5444,116,Tech Enthusiasts,North America,2026-04-03
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-04,561.04,4242,79,Young Adults (18-34),North America,2026-04-04
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-05,702.34,3708,76,Young Adults (18-34),APAC,2026-04-05
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-06,514.35,6718,73,Tech Enthusiasts,North America,2026-04-06
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-07,561.51,5780,63,B2B Professionals,North America,2026-04-07
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-08,904.19,9321,128,Broad Audience,APAC,2026-04-08
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-09,561.86,3724,70,Tech Enthusiasts,North America,2026-04-09
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-10,694.15,8030,96,Young Adults (18-34),North America,2026-04-10
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-11,357.54,5249,42,Young Adults (18-34),EMEA,2026-04-11
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-12,324.59,3045,34,Young Adults (18-34),North America,2026-04-12
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-13,403.69,4887,89,Unspecified,North America,2026-04-13
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-14,747.96,4577,91,Young Adults (18-34),North America,2026-04-14
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-15,557.98,3550,69,B2B Professionals,North America,2026-04-15
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-16,882.34,4727,103,Broad Audience,North America,2026-04-16
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-17,565.79,7913,72,Tech Enthusiasts,EMEA,2026-04-17
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-18,375.29,2720,44,Unspecified,North America,2026-04-18
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-19,419.4,4526,55,Tech Enthusiasts,APAC,2026-04-19
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-20,346.13,3173,48,Young Adults (18-34),LATAM,2026-04-20
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-21,840.47,5833,105,Young Adults (18-34),LATAM,2026-04-21
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-22,765.71,4685,94,Young Adults (18-34),APAC,2026-04-22
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-23,484.82,6063,77,Unspecified,APAC,2026-04-23
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-24,615.53,4726,75,Broad Audience,North America,2026-04-24
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-25,471.23,4629,88,Tech Enthusiasts,North America,2026-04-25
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-26,311.34,4289,35,Tech Enthusiasts,LATAM,2026-04-26
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-27,496.95,4868,87,Broad Audience,EMEA,2026-04-27
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-28,918.96,12809,193,Tech Enthusiasts,APAC,2026-04-28
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-29,475.83,3494,55,Young Adults (18-34),North America,2026-04-29
+CMP-105,LinkedIn_Ads_Q1_Camp1,LinkedIn Ads,2026-04-30,861.73,13212,163,Young Adults (18-34),APAC,2026-04-30
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-01,753.4,7647,88,Tech Enthusiasts,EMEA,2026-01-01
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-02,674.77,9057,74,Tech Enthusiasts,North America,2026-01-02
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-03,546.99,7482,92,Young Adults (18-34),EMEA,2026-01-03
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-04,450.32,4025,55,B2B Professionals,APAC,2026-01-04
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-05,428.59,3637,64,Young Adults (18-34),North America,2026-01-05
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-06,585.33,3709,63,Tech Enthusiasts,EMEA,2026-01-06
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-07,486.93,3943,73,B2B Professionals,North America,2026-01-07
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-08,530.43,3636,79,B2B Professionals,EMEA,2026-01-08
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-09,380.71,4172,40,Young Adults (18-34),EMEA,2026-01-09
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-10,617.05,7236,93,Young Adults (18-34),North America,2026-01-10
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-11,392.4,4762,56,Young Adults (18-34),EMEA,2026-01-11
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-12,735.84,10685,97,B2B Professionals,LATAM,2026-01-12
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-13,542.23,6651,109,Tech Enthusiasts,EMEA,2026-01-13
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-14,525.41,5299,114,Young Adults (18-34),EMEA,2026-01-14
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-15,772.48,8238,102,Young Adults (18-34),EMEA,2026-01-15
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-16,689.74,7803,74,B2B Professionals,LATAM,2026-01-16
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-17,631.44,6459,70,Tech Enthusiasts,EMEA,2026-01-17
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-18,606.05,11198,92,Tech Enthusiasts,North America,2026-01-18
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-19,502.61,3974,54,Broad Audience,North America,2026-01-19
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-20,753.26,8486,80,B2B Professionals,North America,2026-01-20
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-21,427.1,2451,51,Young Adults (18-34),North America,2026-01-21
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-22,619.35,9351,76,Tech Enthusiasts,EMEA,2026-01-22
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-23,586.96,5667,102,B2B Professionals,North America,2026-01-23
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-24,694.86,10253,84,B2B Professionals,North America,2026-01-24
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-25,421.86,8225,73,Young Adults (18-34),EMEA,2026-01-25
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-26,573.03,7880,72,Unspecified,APAC,2026-01-26
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-27,827.86,4558,96,Tech Enthusiasts,North America,2026-01-27
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-28,721.94,4746,87,Tech Enthusiasts,North America,2026-01-28
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-29,583.75,3954,64,Tech Enthusiasts,North America,2026-01-29
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-30,465.8,2942,51,Broad Audience,North America,2026-01-30
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-01-31,583.61,5649,101,Young Adults (18-34),North America,2026-01-31
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-01,592.2,7194,64,Broad Audience,North America,2026-02-01
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-02,499.76,8841,108,Tech Enthusiasts,North America,2026-02-02
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-03,651.24,7493,71,Broad Audience,North America,2026-02-03
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-04,743.54,12508,128,B2B Professionals,North America,2026-02-04
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-05,479.43,2998,61,Broad Audience,EMEA,2026-02-05
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-06,349.69,4701,58,B2B Professionals,EMEA,2026-02-06
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-07,541.0,6639,86,Broad Audience,APAC,2026-02-07
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-08,438.51,2249,48,Young Adults (18-34),North America,2026-02-08
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-09,527.54,2812,57,B2B Professionals,North America,2026-02-09
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-10,686.27,9053,97,Broad Audience,EMEA,2026-02-10
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-11,846.32,5195,96,Young Adults (18-34),EMEA,2026-02-11
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-12,465.21,5613,59,Tech Enthusiasts,North America,2026-02-12
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-13,352.9,8221,66,Tech Enthusiasts,EMEA,2026-02-13
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-14,531.72,10905,100,B2B Professionals,North America,2026-02-14
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-15,700.88,9413,122,B2B Professionals,North America,2026-02-15
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-16,533.65,6121,70,B2B Professionals,North America,2026-02-16
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-17,506.74,4198,90,Tech Enthusiasts,EMEA,2026-02-17
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-18,608.87,5843,91,Tech Enthusiasts,EMEA,2026-02-18
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-19,471.58,4866,67,Broad Audience,EMEA,2026-02-19
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-20,539.63,6432,106,B2B Professionals,North America,2026-02-20
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-21,364.28,4133,45,Young Adults (18-34),APAC,2026-02-21
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-22,391.94,3965,55,B2B Professionals,APAC,2026-02-22
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-23,331.07,3028,48,Tech Enthusiasts,EMEA,2026-02-23
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-24,517.47,6233,113,Tech Enthusiasts,APAC,2026-02-24
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-25,837.03,6490,96,Young Adults (18-34),APAC,2026-02-25
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-26,628.85,5808,116,Broad Audience,North America,2026-02-26
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-27,334.06,2649,51,Broad Audience,North America,2026-02-27
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-02-28,330.14,2750,37,Tech Enthusiasts,LATAM,2026-02-28
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-01,329.95,4647,42,Young Adults (18-34),APAC,2026-03-01
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-02,495.06,3285,52,Young Adults (18-34),North America,2026-03-02
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-03,572.17,9930,89,Young Adults (18-34),North America,2026-03-03
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-04,781.54,5579,100,B2B Professionals,North America,2026-03-04
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-05,747.2,13251,107,Broad Audience,APAC,2026-03-05
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-06,546.79,6032,113,Tech Enthusiasts,APAC,2026-03-06
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-07,638.29,4851,74,B2B Professionals,EMEA,2026-03-07
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-08,579.21,6744,70,B2B Professionals,APAC,2026-03-08
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-09,637.49,3758,70,Tech Enthusiasts,EMEA,2026-03-09
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-10,875.13,7001,118,B2B Professionals,North America,2026-03-10
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-11,777.97,12186,132,Young Adults (18-34),North America,2026-03-11
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-12,495.89,3573,74,Tech Enthusiasts,North America,2026-03-12
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-13,334.64,3069,41,Broad Audience,EMEA,2026-03-13
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-14,658.31,6330,112,Young Adults (18-34),LATAM,2026-03-14
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-15,586.37,8069,95,B2B Professionals,EMEA,2026-03-15
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-16,398.42,4528,53,Tech Enthusiasts,APAC,2026-03-16
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-17,812.64,9126,97,B2B Professionals,EMEA,2026-03-17
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-18,582.2,10312,87,Young Adults (18-34),North America,2026-03-18
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-19,869.54,9618,152,B2B Professionals,EMEA,2026-03-19
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-20,445.36,2398,49,Young Adults (18-34),LATAM,2026-03-20
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-21,748.27,4337,86,B2B Professionals,EMEA,2026-03-21
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-22,330.27,3002,66,Young Adults (18-34),EMEA,2026-03-22
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-23,663.0,3414,75,B2B Professionals,North America,2026-03-23
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-24,606.3,14072,117,Young Adults (18-34),APAC,2026-03-24
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-25,693.48,6643,114,B2B Professionals,North America,2026-03-25
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-26,804.95,5623,105,B2B Professionals,APAC,2026-03-26
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-27,578.79,4717,79,Broad Audience,EMEA,2026-03-27
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-28,561.43,3173,59,Young Adults (18-34),EMEA,2026-03-28
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-29,475.15,5135,84,Broad Audience,LATAM,2026-03-29
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-30,453.86,5746,63,Unspecified,LATAM,2026-03-30
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-03-31,740.35,4774,86,Tech Enthusiasts,North America,2026-03-31
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-01,630.8,4575,80,Young Adults (18-34),LATAM,2026-04-01
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-02,469.14,3791,67,Tech Enthusiasts,EMEA,2026-04-02
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-03,423.88,4732,80,Tech Enthusiasts,North America,2026-04-03
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-04,617.31,5245,91,Broad Audience,North America,2026-04-04
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-05,308.62,2177,36,Tech Enthusiasts,APAC,2026-04-05
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-06,661.26,4579,71,Young Adults (18-34),North America,2026-04-06
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-07,461.45,5219,62,Broad Audience,EMEA,2026-04-07
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-08,708.47,12832,112,B2B Professionals,North America,2026-04-08
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-09,422.57,2754,56,Broad Audience,EMEA,2026-04-09
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-10,395.05,2156,44,B2B Professionals,EMEA,2026-04-10
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-11,428.93,2276,50,B2B Professionals,APAC,2026-04-11
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-12,580.18,4203,61,Broad Audience,North America,2026-04-12
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-13,450.88,4294,93,Broad Audience,APAC,2026-04-13
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-14,902.61,13658,183,B2B Professionals,North America,2026-04-14
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-15,504.02,6207,73,B2B Professionals,North America,2026-04-15
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-16,457.84,2576,48,Unspecified,North America,2026-04-16
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-17,425.27,3978,50,Young Adults (18-34),North America,2026-04-17
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-18,358.36,4701,61,Tech Enthusiasts,North America,2026-04-18
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-19,394.73,4573,46,Young Adults (18-34),APAC,2026-04-19
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-20,369.72,5073,75,Young Adults (18-34),EMEA,2026-04-20
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-21,827.14,9857,159,Tech Enthusiasts,North America,2026-04-21
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-22,726.0,8294,123,B2B Professionals,North America,2026-04-22
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-23,547.39,7160,63,Young Adults (18-34),North America,2026-04-23
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-24,626.25,4844,84,Broad Audience,APAC,2026-04-24
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-25,441.24,3086,61,Unspecified,APAC,2026-04-25
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-26,467.16,5723,85,Tech Enthusiasts,North America,2026-04-26
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-27,517.43,4517,59,Broad Audience,North America,2026-04-27
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-28,559.63,4391,82,B2B Professionals,North America,2026-04-28
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-29,910.19,10596,169,Tech Enthusiasts,North America,2026-04-29
+CMP-106,LinkedIn_Ads_Q1_Camp2,LinkedIn Ads,2026-04-30,737.67,8260,130,Young Adults (18-34),EMEA,2026-04-30
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-01,374.29,30259,436,Young Adults (18-34),North America,2026-01-01
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-02,313.99,18836,296,Broad Audience,LATAM,2026-01-02
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-03,449.94,51810,874,Broad Audience,North America,2026-01-03
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-04,280.46,14399,331,Broad Audience,North America,2026-01-04
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-05,485.47,56751,842,Broad Audience,North America,2026-01-05
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-06,427.67,45757,1067,Broad Audience,EMEA,2026-01-06
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-07,640.74,68380,1228,Young Adults (18-34),North America,2026-01-07
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-08,525.18,36898,462,Young Adults (18-34),North America,2026-01-08
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-09,333.35,16311,295,Young Adults (18-34),APAC,2026-01-09
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-10,304.07,21830,384,Tech Enthusiasts,LATAM,2026-01-10
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-11,519.31,31724,722,B2B Professionals,North America,2026-01-11
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-12,321.56,25647,478,Tech Enthusiasts,LATAM,2026-01-12
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-13,535.56,52793,668,B2B Professionals,EMEA,2026-01-13
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-14,504.2,33359,470,B2B Professionals,North America,2026-01-14
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-15,416.4,44211,947,B2B Professionals,EMEA,2026-01-15
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-16,348.37,38141,646,Broad Audience,North America,2026-01-16
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-17,512.77,46448,1024,B2B Professionals,EMEA,2026-01-17
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-18,448.02,22952,391,B2B Professionals,North America,2026-01-18
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-19,539.4,29757,657,B2B Professionals,North America,2026-01-19
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-20,325.67,13441,278,Broad Audience,North America,2026-01-20
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-21,580.02,38132,615,Broad Audience,LATAM,2026-01-21
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-22,699.62,45171,705,Young Adults (18-34),LATAM,2026-01-22
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-23,253.6,12275,260,Tech Enthusiasts,LATAM,2026-01-23
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-24,359.16,40994,534,Young Adults (18-34),North America,2026-01-24
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-25,370.19,14320,346,B2B Professionals,North America,2026-01-25
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-26,575.02,96888,1279,B2B Professionals,EMEA,2026-01-26
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-27,378.33,18082,322,Tech Enthusiasts,North America,2026-01-27
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-28,518.55,25591,557,Broad Audience,EMEA,2026-01-28
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-29,708.16,30721,671,B2B Professionals,North America,2026-01-29
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-30,324.36,20062,348,Young Adults (18-34),APAC,2026-01-30
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-01-31,563.45,31031,499,Tech Enthusiasts,North America,2026-01-31
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-01,316.71,35142,578,Young Adults (18-34),APAC,2026-02-01
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-02,291.96,15601,295,Young Adults (18-34),North America,2026-02-02
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-03,443.72,28684,506,B2B Professionals,North America,2026-02-03
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-04,551.68,29809,491,Tech Enthusiasts,EMEA,2026-02-04
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-05,720.06,35164,681,Tech Enthusiasts,APAC,2026-02-05
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-06,389.83,48515,589,Broad Audience,APAC,2026-02-06
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-07,286.56,18411,332,B2B Professionals,LATAM,2026-02-07
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-08,325.14,36284,716,Tech Enthusiasts,North America,2026-02-08
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-09,480.55,43545,581,B2B Professionals,EMEA,2026-02-09
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-10,442.16,16958,384,Unspecified,North America,2026-02-10
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-11,736.75,59814,988,B2B Professionals,North America,2026-02-11
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-12,615.25,53664,802,Tech Enthusiasts,North America,2026-02-12
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-13,452.17,28934,657,Broad Audience,North America,2026-02-13
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-14,372.79,24027,540,Young Adults (18-34),North America,2026-02-14
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-15,279.64,19761,361,Broad Audience,North America,2026-02-15
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-16,383.35,16118,366,Young Adults (18-34),North America,2026-02-16
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-17,445.19,28650,388,Broad Audience,EMEA,2026-02-17
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-18,545.06,70341,1279,Young Adults (18-34),North America,2026-02-18
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-19,599.68,26361,509,Tech Enthusiasts,North America,2026-02-19
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-20,396.18,40217,803,Broad Audience,EMEA,2026-02-20
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-21,276.88,21087,404,Young Adults (18-34),APAC,2026-02-21
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-22,535.13,35657,601,Young Adults (18-34),North America,2026-02-22
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-23,374.21,24632,512,Tech Enthusiasts,North America,2026-02-23
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-24,485.43,63396,890,Broad Audience,North America,2026-02-24
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-25,495.89,39562,927,Tech Enthusiasts,North America,2026-02-25
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-26,532.31,22080,540,B2B Professionals,APAC,2026-02-26
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-27,577.01,25122,509,Tech Enthusiasts,North America,2026-02-27
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-02-28,513.34,29894,622,Young Adults (18-34),EMEA,2026-02-28
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-01,538.57,45601,1041,Tech Enthusiasts,APAC,2026-03-01
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-02,400.96,23853,570,Young Adults (18-34),APAC,2026-03-02
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-03,524.26,40349,646,Tech Enthusiasts,North America,2026-03-03
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-04,329.68,44111,533,Unspecified,LATAM,2026-03-04
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-05,485.38,29886,493,Tech Enthusiasts,APAC,2026-03-05
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-06,581.36,36379,807,Young Adults (18-34),LATAM,2026-03-06
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-07,259.02,14241,293,Tech Enthusiasts,North America,2026-03-07
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-08,578.49,52797,1061,B2B Professionals,North America,2026-03-08
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-09,441.26,42675,601,B2B Professionals,North America,2026-03-09
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-10,643.81,43914,575,Young Adults (18-34),North America,2026-03-10
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-11,319.76,17345,344,B2B Professionals,North America,2026-03-11
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-12,322.87,12241,302,B2B Professionals,North America,2026-03-12
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-13,553.94,27785,485,B2B Professionals,North America,2026-03-13
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-14,450.88,51000,631,Tech Enthusiasts,North America,2026-03-14
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-15,525.58,64998,814,Tech Enthusiasts,North America,2026-03-15
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-16,590.83,45384,707,Tech Enthusiasts,North America,2026-03-16
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-17,708.11,52798,1011,B2B Professionals,North America,2026-03-17
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-18,676.66,43375,647,B2B Professionals,APAC,2026-03-18
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-19,719.55,84590,1510,Young Adults (18-34),APAC,2026-03-19
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-20,279.23,22495,490,B2B Professionals,North America,2026-03-20
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-21,404.74,35377,606,Tech Enthusiasts,North America,2026-03-21
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-22,450.2,19696,431,B2B Professionals,North America,2026-03-22
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-23,343.86,28827,499,Tech Enthusiasts,North America,2026-03-23
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-24,327.67,21791,459,B2B Professionals,EMEA,2026-03-24
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-25,426.17,16240,384,Young Adults (18-34),North America,2026-03-25
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-26,492.45,40065,831,Broad Audience,EMEA,2026-03-26
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-27,538.52,53448,750,Tech Enthusiasts,North America,2026-03-27
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-28,484.94,60202,786,Unspecified,North America,2026-03-28
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-29,595.95,22581,504,Tech Enthusiasts,EMEA,2026-03-29
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-30,553.14,48396,875,Tech Enthusiasts,North America,2026-03-30
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-03-31,499.53,38893,752,Broad Audience,North America,2026-03-31
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-01,721.31,33388,758,Tech Enthusiasts,APAC,2026-04-01
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-02,319.59,24197,303,Broad Audience,LATAM,2026-04-02
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-03,352.92,28291,621,Young Adults (18-34),APAC,2026-04-03
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-04,285.99,23090,571,Tech Enthusiasts,APAC,2026-04-04
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-05,363.52,19568,386,Tech Enthusiasts,EMEA,2026-04-05
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-06,451.38,38942,607,Broad Audience,North America,2026-04-06
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-07,615.41,52063,1048,Tech Enthusiasts,North America,2026-04-07
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-08,338.73,33755,671,Broad Audience,North America,2026-04-08
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-09,633.69,51644,941,Broad Audience,North America,2026-04-09
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-10,412.87,76871,1004,Young Adults (18-34),North America,2026-04-10
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-11,470.98,33201,635,B2B Professionals,North America,2026-04-11
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-12,482.34,32476,411,Broad Audience,EMEA,2026-04-12
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-13,447.37,43326,559,B2B Professionals,EMEA,2026-04-13
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-14,461.67,23545,407,B2B Professionals,EMEA,2026-04-14
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-15,440.84,25484,537,Broad Audience,APAC,2026-04-15
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-16,608.41,26505,644,Young Adults (18-34),North America,2026-04-16
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-17,345.18,29169,601,Tech Enthusiasts,EMEA,2026-04-17
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-18,255.69,16043,260,Tech Enthusiasts,EMEA,2026-04-18
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-19,369.96,55037,728,Broad Audience,LATAM,2026-04-19
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-20,477.43,57353,988,Tech Enthusiasts,APAC,2026-04-20
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-21,364.22,42807,910,Young Adults (18-34),North America,2026-04-21
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-22,318.14,16561,382,Unspecified,EMEA,2026-04-22
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-23,537.58,59993,1148,Young Adults (18-34),EMEA,2026-04-23
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-24,386.05,49189,651,Young Adults (18-34),North America,2026-04-24
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-25,311.91,14741,262,Tech Enthusiasts,APAC,2026-04-25
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-26,598.45,30582,690,Young Adults (18-34),North America,2026-04-26
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-27,390.95,19934,416,Young Adults (18-34),North America,2026-04-27
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-28,589.17,60039,1172,Tech Enthusiasts,EMEA,2026-04-28
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-29,642.14,31568,584,Tech Enthusiasts,EMEA,2026-04-29
+CMP-107,YouTube_Ads_Q1_Camp1,YouTube Ads,2026-04-30,394.15,59685,937,Young Adults (18-34),EMEA,2026-04-30
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-01,684.36,90081,1228,Unspecified,North America,2026-01-01
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-02,417.47,25212,480,B2B Professionals,North America,2026-01-02
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-03,286.92,17298,330,B2B Professionals,EMEA,2026-01-03
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-04,537.02,67061,1239,Tech Enthusiasts,North America,2026-01-04
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-05,357.72,16939,401,Broad Audience,EMEA,2026-01-05
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-06,631.97,44903,913,Young Adults (18-34),North America,2026-01-06
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-07,619.51,43932,732,Broad Audience,North America,2026-01-07
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-08,450.65,46028,1011,Tech Enthusiasts,North America,2026-01-08
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-09,486.48,31056,678,Young Adults (18-34),North America,2026-01-09
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-10,577.16,70766,960,Tech Enthusiasts,LATAM,2026-01-10
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-11,382.24,51794,850,Tech Enthusiasts,North America,2026-01-11
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-12,480.34,22380,400,Young Adults (18-34),North America,2026-01-12
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-13,362.88,18800,327,Young Adults (18-34),EMEA,2026-01-13
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-14,505.89,42972,550,Broad Audience,LATAM,2026-01-14
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-15,596.33,36653,512,Young Adults (18-34),EMEA,2026-01-15
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-16,453.61,38304,628,B2B Professionals,North America,2026-01-16
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-17,306.93,21067,310,B2B Professionals,EMEA,2026-01-17
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-18,458.33,21383,417,Young Adults (18-34),APAC,2026-01-18
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-19,439.1,48925,947,Broad Audience,North America,2026-01-19
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-20,442.14,61422,858,Young Adults (18-34),EMEA,2026-01-20
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-21,347.77,13796,301,Tech Enthusiasts,APAC,2026-01-21
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-22,347.58,21989,444,Broad Audience,APAC,2026-01-22
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-23,346.97,22105,301,Broad Audience,LATAM,2026-01-23
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-24,312.0,25471,319,Young Adults (18-34),EMEA,2026-01-24
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-25,453.23,18997,394,Young Adults (18-34),APAC,2026-01-25
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-26,582.69,56311,1395,B2B Professionals,APAC,2026-01-26
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-27,435.15,48537,860,Tech Enthusiasts,North America,2026-01-27
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-28,336.37,16096,382,Young Adults (18-34),North America,2026-01-28
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-29,506.13,50868,1153,Broad Audience,EMEA,2026-01-29
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-30,373.59,18687,359,Broad Audience,EMEA,2026-01-30
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-01-31,524.54,34284,596,Unspecified,EMEA,2026-01-31
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-01,461.78,39784,801,Tech Enthusiasts,North America,2026-02-01
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-02,270.86,13954,306,Tech Enthusiasts,North America,2026-02-02
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-03,604.1,73321,1301,B2B Professionals,North America,2026-02-03
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-04,401.0,44611,565,Young Adults (18-34),EMEA,2026-02-04
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-05,523.94,32345,741,B2B Professionals,EMEA,2026-02-05
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-06,271.71,30523,594,Tech Enthusiasts,APAC,2026-02-06
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-07,445.26,30159,381,B2B Professionals,North America,2026-02-07
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-08,314.85,18487,377,B2B Professionals,LATAM,2026-02-08
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-09,544.76,65674,854,B2B Professionals,North America,2026-02-09
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-10,366.44,29547,449,Young Adults (18-34),LATAM,2026-02-10
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-11,611.89,38041,527,Young Adults (18-34),EMEA,2026-02-11
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-12,346.08,41417,858,Tech Enthusiasts,North America,2026-02-12
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-13,421.38,46702,575,Young Adults (18-34),North America,2026-02-13
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-14,284.45,12328,244,Tech Enthusiasts,North America,2026-02-14
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-15,387.6,49545,657,B2B Professionals,APAC,2026-02-15
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-16,487.14,31964,581,Broad Audience,North America,2026-02-16
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-17,435.26,28865,640,Unspecified,North America,2026-02-17
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-18,695.01,43698,652,Young Adults (18-34),North America,2026-02-18
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-19,740.47,60699,1359,Young Adults (18-34),EMEA,2026-02-19
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-20,397.0,20154,460,Broad Audience,APAC,2026-02-20
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-21,270.87,20550,284,Young Adults (18-34),EMEA,2026-02-21
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-22,390.96,19194,479,B2B Professionals,EMEA,2026-02-22
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-23,388.6,54538,767,Broad Audience,APAC,2026-02-23
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-24,709.33,40385,594,Young Adults (18-34),EMEA,2026-02-24
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-25,524.16,42818,713,Tech Enthusiasts,EMEA,2026-02-25
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-26,383.14,25631,492,Tech Enthusiasts,North America,2026-02-26
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-27,509.79,73015,1213,Broad Audience,EMEA,2026-02-27
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-02-28,341.41,18424,357,Broad Audience,EMEA,2026-02-28
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-01,463.54,42676,586,Young Adults (18-34),North America,2026-03-01
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-02,459.75,35944,566,B2B Professionals,North America,2026-03-02
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-03,437.46,35901,442,Tech Enthusiasts,LATAM,2026-03-03
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-04,388.8,37911,500,Tech Enthusiasts,EMEA,2026-03-04
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-05,490.72,25364,600,B2B Professionals,North America,2026-03-05
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-06,551.58,27143,640,Tech Enthusiasts,APAC,2026-03-06
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-07,400.39,16757,400,Tech Enthusiasts,North America,2026-03-07
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-08,344.08,40436,615,Young Adults (18-34),EMEA,2026-03-08
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-09,455.8,30699,614,B2B Professionals,North America,2026-03-09
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-10,387.68,32133,475,Young Adults (18-34),North America,2026-03-10
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-11,667.69,79444,1624,Tech Enthusiasts,APAC,2026-03-11
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-12,720.58,123650,1731,Broad Audience,North America,2026-03-12
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-13,447.61,23094,481,Broad Audience,LATAM,2026-03-13
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-14,502.06,34006,797,B2B Professionals,North America,2026-03-14
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-15,564.09,62683,932,B2B Professionals,APAC,2026-03-15
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-16,425.02,29918,452,Broad Audience,APAC,2026-03-16
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-17,449.26,41830,616,Unspecified,EMEA,2026-03-17
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-18,721.36,50621,1122,Broad Audience,EMEA,2026-03-18
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-19,734.97,75040,1028,Tech Enthusiasts,EMEA,2026-03-19
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-20,451.27,43000,798,Young Adults (18-34),North America,2026-03-20
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-21,475.83,31759,477,Young Adults (18-34),North America,2026-03-21
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-22,319.52,13056,311,Young Adults (18-34),APAC,2026-03-22
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-23,563.95,36378,523,Unspecified,North America,2026-03-23
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-24,460.92,55894,1024,B2B Professionals,North America,2026-03-24
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-25,451.16,18390,430,Young Adults (18-34),APAC,2026-03-25
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-26,687.54,48824,679,Tech Enthusiasts,LATAM,2026-03-26
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-27,488.89,39659,734,Tech Enthusiasts,EMEA,2026-03-27
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-28,291.98,20016,449,Broad Audience,North America,2026-03-28
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-29,583.34,42649,879,Broad Audience,APAC,2026-03-29
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-30,581.01,38556,893,B2B Professionals,EMEA,2026-03-30
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-03-31,637.12,44240,676,Broad Audience,North America,2026-03-31
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-01,335.97,18920,344,Broad Audience,North America,2026-04-01
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-02,386.12,18865,361,B2B Professionals,EMEA,2026-04-02
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-03,428.89,26956,485,Broad Audience,APAC,2026-04-03
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-04,498.29,44880,1028,Tech Enthusiasts,EMEA,2026-04-04
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-05,377.04,15912,341,B2B Professionals,North America,2026-04-05
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-06,560.23,52207,1279,Tech Enthusiasts,EMEA,2026-04-06
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-07,430.87,29653,719,Young Adults (18-34),APAC,2026-04-07
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-08,484.49,78011,947,Tech Enthusiasts,LATAM,2026-04-08
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-09,474.0,41946,691,Tech Enthusiasts,North America,2026-04-09
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-10,557.97,37256,693,B2B Professionals,LATAM,2026-04-10
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-11,337.49,35643,735,Tech Enthusiasts,North America,2026-04-11
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-12,397.77,26539,386,Broad Audience,EMEA,2026-04-12
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-13,396.64,33710,517,Broad Audience,EMEA,2026-04-13
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-14,452.87,20685,516,Young Adults (18-34),LATAM,2026-04-14
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-15,463.44,71237,1044,Young Adults (18-34),North America,2026-04-15
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-16,312.6,12015,276,Tech Enthusiasts,North America,2026-04-16
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-17,292.13,30029,643,Broad Audience,North America,2026-04-17
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-18,291.7,21772,360,Young Adults (18-34),EMEA,2026-04-18
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-19,501.55,82325,1026,Unspecified,North America,2026-04-19
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-20,268.84,38939,487,Young Adults (18-34),APAC,2026-04-20
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-21,461.79,29399,611,Tech Enthusiasts,APAC,2026-04-21
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-22,691.39,76600,1694,Young Adults (18-34),LATAM,2026-04-22
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-23,523.91,20174,440,B2B Professionals,EMEA,2026-04-23
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-24,597.25,41384,549,Tech Enthusiasts,North America,2026-04-24
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-25,252.44,23186,349,Broad Audience,North America,2026-04-25
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-26,539.63,84178,1347,B2B Professionals,North America,2026-04-26
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-27,273.87,25907,498,Young Adults (18-34),North America,2026-04-27
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-28,477.38,18217,433,Young Adults (18-34),North America,2026-04-28
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-29,359.23,24094,308,Young Adults (18-34),North America,2026-04-29
+CMP-108,YouTube_Ads_Q1_Camp2,YouTube Ads,2026-04-30,452.68,38365,851,B2B Professionals,EMEA,2026-04-30
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-01,77.98,10613,1216,B2B Professionals,APAC,2026-01-01
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-02,104.46,13577,1593,B2B Professionals,APAC,2026-01-02
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-03,66.88,4967,302,Tech Enthusiasts,APAC,2026-01-03
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-04,143.48,5660,618,Broad Audience,North America,2026-01-04
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-05,78.42,8798,727,Young Adults (18-34),EMEA,2026-01-05
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-06,82.48,6252,438,Young Adults (18-34),EMEA,2026-01-06
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-07,162.06,8285,818,B2B Professionals,EMEA,2026-01-07
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-08,73.43,6897,585,B2B Professionals,North America,2026-01-08
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-09,145.56,7443,604,B2B Professionals,North America,2026-01-09
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-10,89.22,5432,372,Broad Audience,North America,2026-01-10
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-11,148.13,11003,1172,Young Adults (18-34),EMEA,2026-01-11
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-12,69.2,7507,873,Broad Audience,APAC,2026-01-12
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-13,140.68,10351,664,Young Adults (18-34),North America,2026-01-13
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-14,141.96,16993,1171,Tech Enthusiasts,APAC,2026-01-14
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-15,110.27,20083,1442,B2B Professionals,North America,2026-01-15
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-16,114.28,6593,671,Young Adults (18-34),APAC,2026-01-16
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-17,70.41,4525,489,B2B Professionals,North America,2026-01-17
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-18,138.37,11540,1166,B2B Professionals,EMEA,2026-01-18
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-19,81.61,13811,1334,B2B Professionals,North America,2026-01-19
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-20,72.57,11723,913,B2B Professionals,LATAM,2026-01-20
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-21,63.26,6395,431,Young Adults (18-34),LATAM,2026-01-21
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-22,82.71,4699,340,Tech Enthusiasts,EMEA,2026-01-22
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-23,138.45,9351,861,B2B Professionals,North America,2026-01-23
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-24,141.65,14880,1225,Broad Audience,North America,2026-01-24
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-25,145.21,7658,734,Broad Audience,North America,2026-01-25
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-26,75.71,7185,529,Tech Enthusiasts,LATAM,2026-01-26
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-27,115.47,8284,975,Young Adults (18-34),North America,2026-01-27
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-28,106.46,4875,459,Broad Audience,APAC,2026-01-28
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-29,105.23,6933,769,Young Adults (18-34),APAC,2026-01-29
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-30,144.1,7894,825,Broad Audience,APAC,2026-01-30
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-01-31,89.51,17654,1485,Tech Enthusiasts,North America,2026-01-31
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-01,124.9,10480,1028,B2B Professionals,EMEA,2026-02-01
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-02,104.57,14848,1151,Tech Enthusiasts,North America,2026-02-02
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-03,89.5,3566,367,Unspecified,North America,2026-02-03
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-04,121.89,5792,530,Tech Enthusiasts,North America,2026-02-04
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-05,118.34,21890,1584,B2B Professionals,North America,2026-02-05
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-06,147.73,15030,1500,Broad Audience,EMEA,2026-02-06
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-07,65.31,3468,333,Tech Enthusiasts,APAC,2026-02-07
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-08,147.54,11118,895,Tech Enthusiasts,North America,2026-02-08
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-09,139.74,23735,1891,Broad Audience,EMEA,2026-02-09
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-10,111.7,6937,772,Young Adults (18-34),APAC,2026-02-10
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-11,73.52,3229,358,B2B Professionals,North America,2026-02-11
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-12,83.19,4711,434,Tech Enthusiasts,North America,2026-02-12
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-13,71.17,15379,1220,Tech Enthusiasts,APAC,2026-02-13
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-14,116.69,7261,851,Tech Enthusiasts,LATAM,2026-02-14
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-15,102.76,15972,1009,Tech Enthusiasts,North America,2026-02-15
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-16,80.28,5454,512,Tech Enthusiasts,North America,2026-02-16
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-17,109.97,5364,634,Tech Enthusiasts,LATAM,2026-02-17
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-18,157.78,13100,937,Tech Enthusiasts,EMEA,2026-02-18
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-19,137.81,10150,931,Young Adults (18-34),EMEA,2026-02-19
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-20,69.76,4638,330,B2B Professionals,North America,2026-02-20
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-21,115.83,10991,842,Tech Enthusiasts,North America,2026-02-21
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-22,143.29,6767,610,Young Adults (18-34),EMEA,2026-02-22
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-23,53.67,4614,370,Broad Audience,North America,2026-02-23
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-24,131.6,7452,664,B2B Professionals,LATAM,2026-02-24
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-25,127.25,9919,736,Young Adults (18-34),North America,2026-02-25
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-26,71.86,9142,1008,B2B Professionals,North America,2026-02-26
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-27,100.49,7737,493,Tech Enthusiasts,North America,2026-02-27
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-02-28,53.65,8050,886,B2B Professionals,North America,2026-02-28
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-01,93.79,5650,428,Young Adults (18-34),North America,2026-03-01
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-02,94.91,6079,573,Young Adults (18-34),North America,2026-03-02
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-03,75.83,9307,614,Broad Audience,LATAM,2026-03-03
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-04,183.76,8568,823,Tech Enthusiasts,North America,2026-03-04
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-05,141.35,11257,1001,Broad Audience,North America,2026-03-05
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-06,81.8,5491,348,Young Adults (18-34),LATAM,2026-03-06
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-07,111.04,9295,697,Young Adults (18-34),APAC,2026-03-07
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-08,105.92,10488,692,B2B Professionals,LATAM,2026-03-08
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-09,87.7,7918,513,Tech Enthusiasts,LATAM,2026-03-09
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-10,134.46,18829,1787,Broad Audience,North America,2026-03-10
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-11,172.48,8415,959,Tech Enthusiasts,North America,2026-03-11
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-12,101.21,9779,1120,Broad Audience,EMEA,2026-03-12
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-13,80.1,8748,922,Young Adults (18-34),North America,2026-03-13
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-14,111.66,24154,1922,Young Adults (18-34),North America,2026-03-14
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-15,148.47,23827,1616,B2B Professionals,APAC,2026-03-15
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-16,92.55,9255,567,B2B Professionals,North America,2026-03-16
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-17,164.58,11103,724,Tech Enthusiasts,LATAM,2026-03-17
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-18,111.0,7556,514,Broad Audience,APAC,2026-03-18
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-19,180.17,11882,972,Broad Audience,North America,2026-03-19
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-20,83.22,4125,437,Broad Audience,North America,2026-03-20
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-21,129.8,10277,656,Young Adults (18-34),North America,2026-03-21
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-22,80.45,3307,326,Tech Enthusiasts,LATAM,2026-03-22
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-23,87.72,4833,416,Broad Audience,North America,2026-03-23
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-24,180.96,24254,1930,Broad Audience,North America,2026-03-24
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-25,138.53,9536,997,B2B Professionals,North America,2026-03-25
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-26,99.99,9845,690,Young Adults (18-34),North America,2026-03-26
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-27,55.74,2954,334,B2B Professionals,EMEA,2026-03-27
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-28,116.47,8523,870,Young Adults (18-34),EMEA,2026-03-28
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-29,50.74,2698,269,B2B Professionals,North America,2026-03-29
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-30,147.9,12228,1102,Broad Audience,EMEA,2026-03-30
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-03-31,135.26,5766,645,Young Adults (18-34),North America,2026-03-31
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-01,110.76,4468,455,B2B Professionals,APAC,2026-04-01
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-02,122.57,20670,1922,Young Adults (18-34),APAC,2026-04-02
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-03,70.4,3488,326,B2B Professionals,LATAM,2026-04-03
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-04,101.26,10616,936,Broad Audience,North America,2026-04-04
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-05,69.27,11724,913,Broad Audience,North America,2026-04-05
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-06,72.75,10929,874,Broad Audience,North America,2026-04-06
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-07,186.02,17879,1265,Broad Audience,North America,2026-04-07
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-08,151.21,9712,612,B2B Professionals,EMEA,2026-04-08
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-09,97.73,18039,1125,B2B Professionals,APAC,2026-04-09
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-10,63.44,4576,441,Young Adults (18-34),North America,2026-04-10
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-11,128.35,23298,2463,Broad Audience,North America,2026-04-11
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-12,103.55,8542,712,Broad Audience,APAC,2026-04-12
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-13,83.58,4177,483,Unspecified,EMEA,2026-04-13
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-14,119.1,9580,1126,B2B Professionals,EMEA,2026-04-14
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-15,97.82,10961,924,Unspecified,North America,2026-04-15
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-16,134.82,29247,2026,Young Adults (18-34),EMEA,2026-04-16
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-17,75.88,10257,669,Young Adults (18-34),LATAM,2026-04-17
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-18,144.47,13103,1235,Broad Audience,North America,2026-04-18
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-19,131.07,8338,546,B2B Professionals,LATAM,2026-04-19
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-20,103.75,26014,1963,Young Adults (18-34),EMEA,2026-04-20
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-21,154.15,7999,618,Tech Enthusiasts,EMEA,2026-04-21
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-22,113.21,11378,1350,Broad Audience,North America,2026-04-22
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-23,137.91,15589,1444,Tech Enthusiasts,EMEA,2026-04-23
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-24,149.03,10515,865,Broad Audience,North America,2026-04-24
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-25,88.45,8613,740,Broad Audience,North America,2026-04-25
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-26,129.4,9711,782,Broad Audience,North America,2026-04-26
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-27,72.44,6344,480,B2B Professionals,EMEA,2026-04-27
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-28,126.39,7693,908,Tech Enthusiasts,APAC,2026-04-28
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-29,79.93,4345,487,Tech Enthusiasts,EMEA,2026-04-29
+CMP-109,Email_Marketing_Q1_Camp1,Email Marketing,2026-04-30,109.01,18188,1591,Young Adults (18-34),APAC,2026-04-30
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-01,93.0,3251,382,B2B Professionals,North America,2026-01-01
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-02,139.56,6616,573,Young Adults (18-34),EMEA,2026-01-02
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-03,118.78,10884,1134,B2B Professionals,North America,2026-01-03
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-04,88.63,9298,734,Young Adults (18-34),North America,2026-01-04
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-05,69.23,5215,618,Young Adults (18-34),North America,2026-01-05
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-06,134.57,7315,545,Tech Enthusiasts,EMEA,2026-01-06
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-07,138.42,20315,2044,B2B Professionals,EMEA,2026-01-07
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-08,154.95,15203,1680,B2B Professionals,APAC,2026-01-08
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-09,96.03,15082,1026,Unspecified,North America,2026-01-09
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-10,69.91,6007,584,Tech Enthusiasts,North America,2026-01-10
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-11,78.97,11083,807,Young Adults (18-34),EMEA,2026-01-11
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-12,71.75,6961,581,Unspecified,LATAM,2026-01-12
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-13,162.52,25779,1652,Young Adults (18-34),North America,2026-01-13
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-14,125.74,5479,611,Broad Audience,North America,2026-01-14
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-15,148.4,20705,1318,Tech Enthusiasts,North America,2026-01-15
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-16,90.92,7716,784,Broad Audience,North America,2026-01-16
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-17,131.16,13885,1205,Tech Enthusiasts,EMEA,2026-01-17
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-18,148.74,15690,1565,Tech Enthusiasts,LATAM,2026-01-18
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-19,65.64,3475,327,Young Adults (18-34),North America,2026-01-19
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-20,104.22,5540,628,Tech Enthusiasts,EMEA,2026-01-20
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-21,127.34,28578,2114,Young Adults (18-34),North America,2026-01-21
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-22,85.22,7118,565,Young Adults (18-34),North America,2026-01-22
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-23,63.33,2391,268,Tech Enthusiasts,North America,2026-01-23
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-24,127.59,5685,603,B2B Professionals,EMEA,2026-01-24
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-25,133.43,8159,806,Young Adults (18-34),EMEA,2026-01-25
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-26,53.44,4623,300,Young Adults (18-34),North America,2026-01-26
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-27,130.68,16788,1704,Broad Audience,North America,2026-01-27
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-28,75.54,8470,954,Tech Enthusiasts,North America,2026-01-28
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-29,75.84,3756,421,Broad Audience,EMEA,2026-01-29
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-30,57.53,12595,793,Young Adults (18-34),North America,2026-01-30
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-01-31,76.0,5129,598,Tech Enthusiasts,APAC,2026-01-31
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-01,121.04,16024,1669,Young Adults (18-34),EMEA,2026-02-01
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-02,84.1,4445,337,Young Adults (18-34),LATAM,2026-02-02
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-03,65.58,3342,346,Broad Audience,LATAM,2026-02-03
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-04,184.45,26758,2925,Tech Enthusiasts,EMEA,2026-02-04
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-05,78.54,3665,436,Broad Audience,North America,2026-02-05
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-06,53.99,4015,440,Tech Enthusiasts,North America,2026-02-06
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-07,55.51,4651,410,Broad Audience,EMEA,2026-02-07
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-08,81.17,8176,523,Unspecified,North America,2026-02-08
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-09,97.79,7994,807,Tech Enthusiasts,EMEA,2026-02-09
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-10,96.02,12560,848,Tech Enthusiasts,North America,2026-02-10
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-11,137.21,5394,612,Young Adults (18-34),North America,2026-02-11
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-12,72.12,3578,391,B2B Professionals,North America,2026-02-12
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-13,133.88,7950,593,Tech Enthusiasts,North America,2026-02-13
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-14,60.19,2371,259,Broad Audience,North America,2026-02-14
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-15,134.37,12117,976,Tech Enthusiasts,North America,2026-02-15
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-16,125.66,10590,754,B2B Professionals,North America,2026-02-16
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-17,69.63,3758,415,B2B Professionals,North America,2026-02-17
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-18,134.1,7863,626,Young Adults (18-34),EMEA,2026-02-18
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-19,96.78,16798,1749,Tech Enthusiasts,EMEA,2026-02-19
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-20,124.17,9273,671,Young Adults (18-34),North America,2026-02-20
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-21,62.99,3048,340,Unspecified,EMEA,2026-02-21
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-22,68.41,8835,961,Tech Enthusiasts,EMEA,2026-02-22
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-23,128.15,6105,672,B2B Professionals,EMEA,2026-02-23
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-24,168.86,15991,1574,Young Adults (18-34),LATAM,2026-02-24
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-25,66.68,5729,401,Tech Enthusiasts,North America,2026-02-25
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-26,91.92,5370,617,B2B Professionals,North America,2026-02-26
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-27,125.9,7305,838,B2B Professionals,EMEA,2026-02-27
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-02-28,73.29,8910,900,Tech Enthusiasts,APAC,2026-02-28
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-01,80.95,6866,579,Unspecified,North America,2026-03-01
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-02,79.48,6998,657,Young Adults (18-34),LATAM,2026-03-02
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-03,95.71,6298,417,Tech Enthusiasts,LATAM,2026-03-03
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-04,83.59,3934,343,Broad Audience,EMEA,2026-03-04
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-05,100.2,14611,1143,B2B Professionals,North America,2026-03-05
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-06,60.47,4167,449,B2B Professionals,North America,2026-03-06
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-07,114.34,19405,1278,B2B Professionals,LATAM,2026-03-07
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-08,132.15,11001,1093,Tech Enthusiasts,EMEA,2026-03-08
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-09,118.27,8846,672,B2B Professionals,North America,2026-03-09
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-10,173.87,9641,1060,Unspecified,North America,2026-03-10
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-11,148.97,6776,805,Unspecified,EMEA,2026-03-11
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-12,92.95,6669,443,Broad Audience,LATAM,2026-03-12
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-13,88.28,5838,501,Young Adults (18-34),North America,2026-03-13
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-14,126.21,4568,532,B2B Professionals,APAC,2026-03-14
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-15,123.74,19207,1230,Young Adults (18-34),LATAM,2026-03-15
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-16,113.32,7729,583,Tech Enthusiasts,North America,2026-03-16
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-17,109.42,9074,624,Broad Audience,North America,2026-03-17
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-18,144.04,11476,1099,B2B Professionals,North America,2026-03-18
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-19,176.2,15524,1695,Unspecified,North America,2026-03-19
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-20,76.52,3553,419,Broad Audience,EMEA,2026-03-20
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-21,129.51,14142,1678,Unspecified,North America,2026-03-21
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-22,79.94,14953,1141,Broad Audience,North America,2026-03-22
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-23,58.84,4172,496,Tech Enthusiasts,North America,2026-03-23
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-24,83.32,3084,337,Young Adults (18-34),North America,2026-03-24
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-25,69.58,9900,939,Broad Audience,North America,2026-03-25
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-26,167.87,11764,1206,Tech Enthusiasts,North America,2026-03-26
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-27,86.12,7549,485,Young Adults (18-34),EMEA,2026-03-27
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-28,149.62,9471,1032,Young Adults (18-34),APAC,2026-03-28
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-29,109.54,5681,481,Tech Enthusiasts,EMEA,2026-03-29
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-30,91.74,17724,1163,B2B Professionals,APAC,2026-03-30
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-03-31,92.06,9571,997,Young Adults (18-34),EMEA,2026-03-31
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-01,82.81,3078,342,Broad Audience,North America,2026-04-01
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-02,157.8,33098,2003,B2B Professionals,EMEA,2026-04-02
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-03,95.54,10273,621,Young Adults (18-34),EMEA,2026-04-03
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-04,94.27,6474,479,Broad Audience,EMEA,2026-04-04
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-05,71.08,7473,730,Broad Audience,North America,2026-04-05
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-06,75.83,3384,339,Young Adults (18-34),North America,2026-04-06
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-07,88.03,6145,501,Unspecified,North America,2026-04-07
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-08,123.24,6564,755,Broad Audience,North America,2026-04-08
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-09,152.34,10162,910,B2B Professionals,North America,2026-04-09
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-10,74.58,3993,320,Unspecified,EMEA,2026-04-10
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-11,113.15,10521,713,Young Adults (18-34),North America,2026-04-11
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-12,112.3,7545,805,B2B Professionals,North America,2026-04-12
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-13,90.63,3751,385,Young Adults (18-34),EMEA,2026-04-13
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-14,73.03,2950,295,Young Adults (18-34),EMEA,2026-04-14
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-15,76.19,4440,313,Tech Enthusiasts,North America,2026-04-15
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-16,152.2,7380,741,Tech Enthusiasts,APAC,2026-04-16
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-17,57.86,6649,498,Unspecified,North America,2026-04-17
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-18,123.26,9061,659,B2B Professionals,North America,2026-04-18
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-19,91.11,15364,940,Broad Audience,LATAM,2026-04-19
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-20,84.16,11832,715,Tech Enthusiasts,APAC,2026-04-20
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-21,80.83,9180,986,Tech Enthusiasts,North America,2026-04-21
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-22,140.32,15281,1255,Broad Audience,APAC,2026-04-22
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-23,112.54,5569,470,Broad Audience,North America,2026-04-23
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-24,139.75,9242,603,Broad Audience,APAC,2026-04-24
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-25,129.13,13212,1431,Broad Audience,North America,2026-04-25
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-26,145.23,35089,2421,Tech Enthusiasts,EMEA,2026-04-26
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-27,114.52,18227,2144,B2B Professionals,North America,2026-04-27
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-28,64.25,3389,393,Tech Enthusiasts,APAC,2026-04-28
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-29,64.16,4624,405,Young Adults (18-34),North America,2026-04-29
+CMP-110,Email_Marketing_Q1_Camp2,Email Marketing,2026-04-30,148.05,9272,982,Young Adults (18-34),North America,2026-04-30
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-01,57.41,88923,6660,Tech Enthusiasts,North America,2026-01-01
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-02,58.49,52567,2256,Tech Enthusiasts,North America,2026-01-02
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-03,52.15,16107,1275,Tech Enthusiasts,North America,2026-01-03
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-04,50.14,122324,7569,Tech Enthusiasts,North America,2026-01-04
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-05,36.72,11583,860,B2B Professionals,North America,2026-01-05
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-06,38.13,19288,871,Tech Enthusiasts,North America,2026-01-06
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-07,56.16,44077,3154,B2B Professionals,EMEA,2026-01-07
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-08,36.78,13743,1030,B2B Professionals,APAC,2026-01-08
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-09,43.74,120521,6882,B2B Professionals,EMEA,2026-01-09
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-10,50.35,157986,9518,Broad Audience,LATAM,2026-01-10
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-11,40.54,13886,853,Young Adults (18-34),APAC,2026-01-11
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-12,39.72,28232,1683,Broad Audience,APAC,2026-01-12
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-13,45.18,45427,2711,Tech Enthusiasts,North America,2026-01-13
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-14,64.7,49829,2659,B2B Professionals,North America,2026-01-14
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-15,72.46,101573,4749,Young Adults (18-34),North America,2026-01-15
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-16,21.41,21452,1325,Tech Enthusiasts,North America,2026-01-16
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-17,37.89,14230,784,Young Adults (18-34),North America,2026-01-17
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-18,38.31,20895,1008,Tech Enthusiasts,North America,2026-01-18
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-19,36.76,17684,947,Tech Enthusiasts,North America,2026-01-19
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-20,62.1,320599,23757,B2B Professionals,APAC,2026-01-20
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-21,42.63,22342,1179,Broad Audience,North America,2026-01-21
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-22,33.93,31794,1376,B2B Professionals,LATAM,2026-01-22
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-23,59.06,40802,3139,Tech Enthusiasts,North America,2026-01-23
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-24,48.1,18349,1460,Young Adults (18-34),EMEA,2026-01-24
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-25,22.08,96745,3885,Unspecified,APAC,2026-01-25
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-26,51.47,38824,2019,B2B Professionals,North America,2026-01-26
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-27,43.8,18802,1158,B2B Professionals,North America,2026-01-27
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-28,30.12,18971,1467,Tech Enthusiasts,APAC,2026-01-28
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-29,48.32,60267,2672,Broad Audience,APAC,2026-01-29
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-30,26.72,17530,1043,Tech Enthusiasts,LATAM,2026-01-30
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-01-31,43.19,38035,1598,B2B Professionals,North America,2026-01-31
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-01,21.3,8312,573,B2B Professionals,APAC,2026-02-01
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-02,26.19,34808,1739,Young Adults (18-34),North America,2026-02-02
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-03,49.45,30542,2427,B2B Professionals,North America,2026-02-03
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-04,27.64,20933,883,Broad Audience,EMEA,2026-02-04
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-05,51.35,39032,1828,B2B Professionals,North America,2026-02-05
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-06,43.74,93229,4163,Unspecified,North America,2026-02-06
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-07,52.11,25477,1322,B2B Professionals,North America,2026-02-07
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-08,47.9,20894,1490,Broad Audience,EMEA,2026-02-08
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-09,26.23,29231,2154,B2B Professionals,North America,2026-02-09
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-10,60.16,38918,2989,Tech Enthusiasts,North America,2026-02-10
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-11,72.39,104676,5599,Young Adults (18-34),North America,2026-02-11
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-12,49.83,144203,8081,Young Adults (18-34),APAC,2026-02-12
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-13,52.13,124327,6796,Young Adults (18-34),North America,2026-02-13
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-14,51.94,30830,1468,Young Adults (18-34),North America,2026-02-14
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-15,45.13,93608,7436,Broad Audience,North America,2026-02-15
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-16,43.14,15217,946,B2B Professionals,North America,2026-02-16
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-17,67.16,31577,2085,Broad Audience,APAC,2026-02-17
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-18,70.99,242353,14969,Tech Enthusiasts,APAC,2026-02-18
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-19,55.34,92285,6635,Tech Enthusiasts,North America,2026-02-19
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-20,38.55,82823,4431,B2B Professionals,North America,2026-02-20
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-21,42.0,20363,1355,Broad Audience,North America,2026-02-21
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-22,24.82,12579,582,Unspecified,APAC,2026-02-22
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-23,40.04,18567,815,Young Adults (18-34),EMEA,2026-02-23
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-24,42.5,21466,915,Tech Enthusiasts,EMEA,2026-02-24
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-25,57.64,82608,4509,Broad Audience,North America,2026-02-25
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-26,66.34,33452,2358,Tech Enthusiasts,North America,2026-02-26
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-27,42.75,17194,985,Unspecified,North America,2026-02-27
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-02-28,25.71,16908,1320,Young Adults (18-34),APAC,2026-02-28
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-01,55.25,72812,3155,Tech Enthusiasts,North America,2026-03-01
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-02,51.32,39016,2318,Broad Audience,North America,2026-03-02
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-03,47.16,45837,2507,Tech Enthusiasts,APAC,2026-03-03
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-04,43.09,24585,1643,Young Adults (18-34),North America,2026-03-04
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-05,71.67,31400,1981,Tech Enthusiasts,North America,2026-03-05
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-06,44.72,28384,1755,Young Adults (18-34),North America,2026-03-06
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-07,27.73,10346,583,Young Adults (18-34),North America,2026-03-07
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-08,21.5,9736,599,Tech Enthusiasts,North America,2026-03-08
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-09,49.79,124355,5919,Young Adults (18-34),North America,2026-03-09
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-10,37.37,17535,1158,Broad Audience,North America,2026-03-10
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-11,28.65,26426,2093,Tech Enthusiasts,EMEA,2026-03-11
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-12,25.37,23589,979,Tech Enthusiasts,LATAM,2026-03-12
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-13,58.74,37254,2173,Broad Audience,EMEA,2026-03-13
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-14,22.6,19552,970,Young Adults (18-34),North America,2026-03-14
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-15,43.29,52092,2426,Tech Enthusiasts,APAC,2026-03-15
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-16,46.56,35545,2752,Broad Audience,North America,2026-03-16
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-17,26.97,9944,727,Unspecified,APAC,2026-03-17
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-18,55.03,50494,2076,B2B Professionals,North America,2026-03-18
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-19,56.43,29050,2025,Young Adults (18-34),EMEA,2026-03-19
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-20,23.53,16241,1137,Tech Enthusiasts,LATAM,2026-03-20
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-21,31.12,23485,1249,Young Adults (18-34),APAC,2026-03-21
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-22,47.37,22288,1073,Broad Audience,North America,2026-03-22
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-23,55.54,64183,3375,Tech Enthusiasts,LATAM,2026-03-23
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-24,27.39,20939,1555,Young Adults (18-34),North America,2026-03-24
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-25,46.24,31298,2398,Broad Audience,EMEA,2026-03-25
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-26,74.42,75550,3198,Young Adults (18-34),North America,2026-03-26
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-27,26.28,7838,554,Young Adults (18-34),EMEA,2026-03-27
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-28,48.86,13791,1038,Tech Enthusiasts,APAC,2026-03-28
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-29,42.49,34469,1537,B2B Professionals,EMEA,2026-03-29
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-30,30.75,424212,29234,B2B Professionals,EMEA,2026-03-30
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-03-31,51.96,18056,1072,B2B Professionals,EMEA,2026-03-31
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-01,67.05,23508,1345,Young Adults (18-34),LATAM,2026-04-01
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-02,34.56,19972,1123,B2B Professionals,North America,2026-04-02
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-03,30.61,11442,892,Young Adults (18-34),APAC,2026-04-03
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-04,22.21,19265,825,Broad Audience,APAC,2026-04-04
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-05,46.32,17055,1124,Unspecified,EMEA,2026-04-05
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-06,56.99,49325,2204,Tech Enthusiasts,North America,2026-04-06
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-07,54.62,34882,2264,B2B Professionals,North America,2026-04-07
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-08,49.57,18845,1043,Young Adults (18-34),EMEA,2026-04-08
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-09,55.19,65423,3692,B2B Professionals,LATAM,2026-04-09
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-10,25.23,33070,1357,B2B Professionals,APAC,2026-04-10
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-11,28.05,118789,7006,B2B Professionals,North America,2026-04-11
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-12,52.31,17701,1356,Broad Audience,EMEA,2026-04-12
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-13,22.09,7640,564,Broad Audience,EMEA,2026-04-13
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-14,36.65,12549,867,Unspecified,North America,2026-04-14
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-15,36.28,47767,3425,B2B Professionals,North America,2026-04-15
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-16,74.93,822574,60385,Young Adults (18-34),APAC,2026-04-16
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-17,42.18,12135,935,B2B Professionals,North America,2026-04-17
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-18,30.01,11862,896,Young Adults (18-34),EMEA,2026-04-18
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-19,27.54,8691,684,Young Adults (18-34),North America,2026-04-19
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-20,23.44,13940,838,B2B Professionals,North America,2026-04-20
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-21,41.71,25194,1598,B2B Professionals,APAC,2026-04-21
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-22,60.65,78613,3311,Broad Audience,LATAM,2026-04-22
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-23,37.01,48297,2287,Tech Enthusiasts,North America,2026-04-23
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-24,34.25,15736,982,Young Adults (18-34),North America,2026-04-24
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-25,42.48,3358012,144866,Broad Audience,North America,2026-04-25
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-26,48.27,20638,1049,Young Adults (18-34),EMEA,2026-04-26
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-27,55.27,16857,1173,B2B Professionals,EMEA,2026-04-27
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-28,45.52,46084,1934,B2B Professionals,APAC,2026-04-28
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-29,47.7,57116,3162,Broad Audience,EMEA,2026-04-29
+CMP-111,Organic_Search_Q1_Camp1,Organic Search,2026-04-30,38.62,131250,6573,Broad Audience,EMEA,2026-04-30
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-01,51.67,31697,1732,Broad Audience,EMEA,2026-01-01
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-02,24.67,62172,3822,Broad Audience,North America,2026-01-02
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-03,54.78,28710,1433,B2B Professionals,North America,2026-01-03
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-04,49.14,89734,4922,Tech Enthusiasts,EMEA,2026-01-04
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-05,24.53,20318,1207,Tech Enthusiasts,APAC,2026-01-05
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-06,33.58,12271,831,Tech Enthusiasts,EMEA,2026-01-06
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-07,45.6,98888,6589,Tech Enthusiasts,EMEA,2026-01-07
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-08,41.9,14552,924,B2B Professionals,North America,2026-01-08
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-09,50.25,21159,1265,Broad Audience,North America,2026-01-09
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-10,36.42,10678,810,Tech Enthusiasts,APAC,2026-01-10
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-11,23.55,10298,544,B2B Professionals,North America,2026-01-11
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-12,36.72,55336,2923,B2B Professionals,North America,2026-01-12
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-13,53.61,45035,2426,Tech Enthusiasts,APAC,2026-01-13
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-14,62.84,54243,3785,B2B Professionals,North America,2026-01-14
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-15,42.28,20981,1046,B2B Professionals,North America,2026-01-15
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-16,54.35,34212,1715,Tech Enthusiasts,EMEA,2026-01-16
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-17,46.22,53153,3964,Young Adults (18-34),EMEA,2026-01-17
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-18,20.64,20474,1107,Tech Enthusiasts,North America,2026-01-18
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-19,51.61,70645,4739,Broad Audience,EMEA,2026-01-19
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-20,62.04,34562,1874,Broad Audience,North America,2026-01-20
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-21,53.56,26052,1437,Young Adults (18-34),North America,2026-01-21
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-22,65.9,22927,1417,Tech Enthusiasts,LATAM,2026-01-22
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-23,23.94,30180,2063,Broad Audience,APAC,2026-01-23
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-24,36.6,142459,8193,B2B Professionals,North America,2026-01-24
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-25,50.89,184328,13475,Young Adults (18-34),EMEA,2026-01-25
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-26,23.59,32073,1398,Unspecified,APAC,2026-01-26
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-27,47.98,55483,4291,Young Adults (18-34),North America,2026-01-27
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-28,53.16,28042,1126,B2B Professionals,LATAM,2026-01-28
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-29,33.55,94335,5925,Broad Audience,North America,2026-01-29
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-30,59.78,40965,1760,Unspecified,North America,2026-01-30
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-01-31,31.5,21639,1129,B2B Professionals,North America,2026-01-31
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-01,37.98,14421,907,Unspecified,North America,2026-02-01
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-02,31.22,83930,3908,Young Adults (18-34),APAC,2026-02-02
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-03,70.29,29234,1441,Broad Audience,North America,2026-02-03
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-04,30.64,10757,704,B2B Professionals,North America,2026-02-04
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-05,39.36,18370,1068,Unspecified,North America,2026-02-05
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-06,34.2,23600,1419,Young Adults (18-34),EMEA,2026-02-06
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-07,54.99,16217,1171,Broad Audience,EMEA,2026-02-07
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-08,53.04,62478,3495,Young Adults (18-34),North America,2026-02-08
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-09,31.42,12434,653,B2B Professionals,EMEA,2026-02-09
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-10,27.85,103289,5038,Young Adults (18-34),North America,2026-02-10
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-11,64.98,30796,1757,Young Adults (18-34),North America,2026-02-11
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-12,63.7,603882,24465,Broad Audience,North America,2026-02-12
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-13,25.24,27710,2142,Broad Audience,EMEA,2026-02-13
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-14,39.29,19111,1510,Unspecified,North America,2026-02-14
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-15,52.44,109535,5317,Tech Enthusiasts,North America,2026-02-15
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-16,57.26,212798,12866,Broad Audience,LATAM,2026-02-16
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-17,32.83,27638,1790,B2B Professionals,LATAM,2026-02-17
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-18,70.74,188956,8474,B2B Professionals,LATAM,2026-02-18
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-19,34.68,28746,1666,Tech Enthusiasts,North America,2026-02-19
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-20,29.07,8174,624,Broad Audience,North America,2026-02-20
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-21,33.08,20643,1053,Broad Audience,EMEA,2026-02-21
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-22,22.88,6423,503,B2B Professionals,EMEA,2026-02-22
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-23,32.13,34650,1635,Tech Enthusiasts,LATAM,2026-02-23
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-24,50.15,186666,12096,Young Adults (18-34),APAC,2026-02-24
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-25,46.73,101712,4846,Broad Audience,North America,2026-02-25
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-26,63.36,116404,6154,Young Adults (18-34),LATAM,2026-02-26
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-27,57.27,101898,5536,B2B Professionals,EMEA,2026-02-27
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-02-28,38.42,11049,853,Young Adults (18-34),North America,2026-02-28
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-01,55.85,34473,1384,Young Adults (18-34),North America,2026-03-01
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-02,29.19,70462,2925,Tech Enthusiasts,North America,2026-03-02
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-03,27.62,33173,2391,Broad Audience,North America,2026-03-03
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-04,45.8,19490,936,B2B Professionals,North America,2026-03-04
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-05,33.64,23196,1773,Tech Enthusiasts,North America,2026-03-05
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-06,57.38,489123,23679,Tech Enthusiasts,EMEA,2026-03-06
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-07,21.58,16220,1070,Tech Enthusiasts,EMEA,2026-03-07
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-08,32.82,122940,7018,B2B Professionals,LATAM,2026-03-08
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-09,39.01,34804,2459,Young Adults (18-34),North America,2026-03-09
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-10,65.6,22594,1512,B2B Professionals,EMEA,2026-03-10
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-11,63.16,188292,9254,Broad Audience,North America,2026-03-11
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-12,62.64,45687,2644,B2B Professionals,APAC,2026-03-12
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-13,34.39,18944,1271,Tech Enthusiasts,LATAM,2026-03-13
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-14,41.25,26398,2063,Tech Enthusiasts,North America,2026-03-14
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-15,25.06,10901,594,Tech Enthusiasts,North America,2026-03-15
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-16,27.96,21896,929,Young Adults (18-34),EMEA,2026-03-16
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-17,46.8,17095,1250,Broad Audience,North America,2026-03-17
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-18,34.71,16706,1293,Broad Audience,APAC,2026-03-18
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-19,40.16,31787,1870,B2B Professionals,North America,2026-03-19
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-20,57.88,96959,4809,B2B Professionals,LATAM,2026-03-20
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-21,43.19,16923,1294,Young Adults (18-34),EMEA,2026-03-21
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-22,21.55,31494,2307,Broad Audience,North America,2026-03-22
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-23,35.07,32842,1314,B2B Professionals,North America,2026-03-23
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-24,37.52,18188,931,B2B Professionals,EMEA,2026-03-24
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-25,68.28,131149,5658,Young Adults (18-34),EMEA,2026-03-25
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-26,52.53,16406,1286,Broad Audience,EMEA,2026-03-26
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-27,39.73,249833,19830,Young Adults (18-34),North America,2026-03-27
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-28,46.67,51756,3283,Tech Enthusiasts,North America,2026-03-28
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-29,53.44,69600,4033,Tech Enthusiasts,EMEA,2026-03-29
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-30,51.36,39503,2601,B2B Professionals,LATAM,2026-03-30
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-03-31,44.15,29646,1210,B2B Professionals,North America,2026-03-31
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-01,68.91,33849,2613,Young Adults (18-34),North America,2026-04-01
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-02,30.99,15477,772,Broad Audience,LATAM,2026-04-02
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-03,57.73,33078,2219,Broad Audience,North America,2026-04-03
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-04,44.04,428695,25680,B2B Professionals,North America,2026-04-04
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-05,34.6,24643,1600,B2B Professionals,EMEA,2026-04-05
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-06,27.31,14519,951,Tech Enthusiasts,EMEA,2026-04-06
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-07,41.78,19054,1092,Young Adults (18-34),EMEA,2026-04-07
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-08,25.92,12232,792,Young Adults (18-34),North America,2026-04-08
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-09,29.55,9471,640,B2B Professionals,North America,2026-04-09
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-10,43.7,25032,1045,B2B Professionals,APAC,2026-04-10
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-11,20.37,25803,2022,Tech Enthusiasts,North America,2026-04-11
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-12,22.68,323158,16090,Broad Audience,North America,2026-04-12
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-13,48.81,18873,1063,B2B Professionals,EMEA,2026-04-13
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-14,70.4,41047,1750,Tech Enthusiasts,EMEA,2026-04-14
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-15,70.37,187251,11490,Broad Audience,North America,2026-04-15
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-16,49.1,272582,13936,Young Adults (18-34),LATAM,2026-04-16
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-17,31.31,20313,1358,B2B Professionals,North America,2026-04-17
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-18,49.54,17555,1142,Tech Enthusiasts,North America,2026-04-18
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-19,57.83,122895,8724,Young Adults (18-34),LATAM,2026-04-19
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-20,48.8,26536,1294,Young Adults (18-34),EMEA,2026-04-20
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-21,63.5,155628,12216,Broad Audience,North America,2026-04-21
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-22,66.14,43644,2552,Young Adults (18-34),EMEA,2026-04-22
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-23,61.49,45911,2992,Tech Enthusiasts,EMEA,2026-04-23
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-24,22.08,8794,513,Young Adults (18-34),North America,2026-04-24
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-25,39.32,16069,886,Tech Enthusiasts,North America,2026-04-25
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-26,39.04,11113,787,B2B Professionals,EMEA,2026-04-26
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-27,29.34,20111,1432,Broad Audience,North America,2026-04-27
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-28,71.11,43480,2400,Tech Enthusiasts,EMEA,2026-04-28
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-29,52.99,36181,2178,B2B Professionals,APAC,2026-04-29
+CMP-112,Organic_Search_Q1_Camp2,Organic Search,2026-04-30,52.09,112489,7947,Broad Audience,LATAM,2026-04-30
