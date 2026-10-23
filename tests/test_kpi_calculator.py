@@ -60,3 +60,12 @@ def test_channel_summary_aggregation(sample_campaigns_raw, sample_leads_raw, sam
     assert "roas" in summary.columns
     assert "net_roi_pct" in summary.columns
     assert len(summary) >= 2
+
+    # Verify calculate_executive_totals on populated channel summary
+    totals = calc.calculate_executive_totals(summary)
+    assert totals["total_spend"] > 0
+    assert totals["total_customers"] > 0
+    assert totals["total_leads"] > 0
+    assert totals["blended_cac"] > 0
+    assert totals["blended_roas"] >= 0
+    assert "paid_cac" in totals

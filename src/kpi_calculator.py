@@ -212,6 +212,10 @@ class KPICalculator:
                 "paid_roas": 0.0,
                 "paid_roi_pct": 0.0,
             }
+
+        tot_spend = float(channel_summary["total_spend"].sum())
+        tot_customers = int(channel_summary["acquired_customers"].sum())
+        tot_leads = int(channel_summary["total_leads"].sum())
         tot_revenue = float(channel_summary["total_net_revenue"].sum())
         tot_profit = float(channel_summary["total_gross_profit"].sum())
 

@@ -45,11 +45,28 @@ class DatabaseManager:
         # Fallback to embedded DuckDB
         self.engine_type = "duckdb"
         Path(self.fallback_path).parent.mkdir(parents=True, exist_ok=True)
-        self.duck_conn = duckdb.connect(database=self.fallback_path)
-        logger.info(
-            "Using embedded DuckDB fallback at %s (Fully ANSI SQL, CTE, & Window function compatible)",
-            self.fallback_path,
-        )
+        try:
+            self.duck_conn = duckdb.connect(database=self.fallback_path)
+            logger.info(
+                "Using embedded DuckDB fallback at %s (Fully ANSI SQL, CTE, & Window function compatible)",
+                self.fallback_path,
+            )
+        except Exception as exc:
+            logger.info(
+                "Notice: DuckDB file %s is active in another process (%s). Initializing concurrent in-memory session.",
+                self.fallback_path, exc,
+            )
+            self.duck_conn = duckdb.connect(database=":memory:")
+            # Preload cleaned datasets if available
+            p_c = Path("data/processed/campaign_spend_clean.csv")
+            p_l = Path("data/processed/customer_leads_clean.csv")
+            p_o = Path("data/processed/customer_orders_clean.csv")
+            if p_c.exists() and p_l.exists() and p_o.exists():
+                try:
+                    self.init_schema()
+                    self.load_clean_data(pd.read_csv(p_c), pd.read_csv(p_l), pd.read_csv(p_o))
+                except Exception as load_exc:
+                    logger.debug("Could not auto-preload in-memory DuckDB: %s", load_exc)
 
     def init_schema(self, schema_file: str = "sql/schema.sql") -> None:
         """Initialize database tables, primary keys, and indices.
