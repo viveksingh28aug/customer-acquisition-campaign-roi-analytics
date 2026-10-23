@@ -22,6 +22,16 @@ class StatisticalEngine:
     def __init__(self, alpha: float = 0.05):
         self.alpha = alpha
 
+    @staticmethod
+    def format_p_value(p_val: float) -> str:
+        """Format p-value appropriately, avoiding misleading 'p = 0.0' or '0.0000e+00' display."""
+        if p_val < 0.0001:
+            return "< 0.0001"
+        elif p_val < 0.001:
+            return f"{p_val:.4f}"
+        else:
+            return f"{p_val:.4f}"
+
     def chi_square_conversion_test(
         self,
         df_leads: pd.DataFrame,
@@ -39,29 +49,39 @@ class StatisticalEngine:
         # Build 2xK contingency table: [converted, non_converted] per group
         ct = pd.crosstab(df_leads[group_col], df_leads[target_col])
         if ct.shape[0] < 2 or ct.shape[1] < 2:
-            return {"error": "Insufficient groups or target classes for Chi-square test."}
+            return {"error": "Insufficient groups or target classes for Chi-square test (need at least 2 categories)."}
 
         chi2, p_val, dof, expected = stats.chi2_contingency(ct)
 
-        # Cramér's V effect size calculation
+        # Check sample size & minimum expected cell count assumption (Cochran 1954)
+        min_expected = float(expected.min())
+        assumption_warning = None
+        if min_expected < 5.0:
+            assumption_warning = (
+                f"Statistical caveat: Minimum expected cell count is {min_expected:.1f} (< 5.0). "
+                "Chi-square asymptotic approximation may be sensitive to small cell counts."
+            )
+
+        # Cramér's V effect size calculation: sqrt(chi2 / (n * min(r-1, c-1)))
         n = ct.to_numpy().sum()
         min_dim = min(ct.shape) - 1
         cramers_v = np.sqrt(chi2 / (n * min_dim)) if n * min_dim > 0 else 0.0
 
         is_significant = p_val < self.alpha
+        p_formatted = self.format_p_value(p_val)
 
         # Plain-English business conclusion
         if is_significant:
             conclusion = (
                 f"Statistically significant difference detected across {group_col}s "
-                f"(chi2={chi2:.2f}, p={p_val:.4e} < {self.alpha}). "
+                f"(chi2={chi2:.2f}, p {p_formatted} vs alpha={self.alpha}). "
                 f"Effect size (Cramer's V) is {cramers_v:.3f}. "
                 f"Channel choice demonstrably impacts customer acquisition probability."
             )
         else:
             conclusion = (
                 f"No statistically significant difference in conversion rates across {group_col}s "
-                f"(chi2={chi2:.2f}, p={p_val:.4f} >= {self.alpha}). "
+                f"(chi2={chi2:.2f}, p {p_formatted} >= {self.alpha}). "
                 f"Observed variations are likely attributable to random sampling noise."
             )
 
@@ -87,7 +107,10 @@ class StatisticalEngine:
             "target_variable": target_col,
             "chi2_statistic": round(float(chi2), 3),
             "p_value": float(p_val),
+            "p_value_formatted": p_formatted,
             "degrees_of_freedom": int(dof),
+            "min_expected_frequency": round(min_expected, 2),
+            "assumption_warning": assumption_warning,
             "cramers_v": round(float(cramers_v), 4),
             "is_significant": bool(is_significant),
             "conclusion": conclusion,
@@ -128,8 +151,8 @@ class StatisticalEngine:
         u_stat, u_pval = stats.mannwhitneyu(a, b, alternative="two-sided")
 
         # Descriptive stats
-        mean_a, std_a = np.mean(a), np.std(a, ddof=1)
-        mean_b, std_b = np.mean(b), np.std(b, ddof=1)
+        mean_a, std_a = float(np.mean(a)), float(np.std(a, ddof=1))
+        mean_b, std_b = float(np.mean(b)), float(np.std(b, ddof=1))
         diff_mean = mean_a - mean_b
 
         # Cohen's d effect size (pooled SD)
@@ -146,10 +169,12 @@ class StatisticalEngine:
         ci_upper = diff_mean + t_crit * se_diff
 
         is_significant = t_pval < self.alpha
+        welch_p_str = self.format_p_value(t_pval)
+        mann_p_str = self.format_p_value(u_pval)
 
         interpretation = (
-            f"Welch's t-test: t={t_stat:.2f}, p={t_pval:.4f}. "
-            f"{label_a} Mean = ${mean_a:.2f} vs {label_b} Mean = ${mean_b:.2f} "
+            f"Welch's t-test: t={t_stat:.2f}, p {welch_p_str}. "
+            f"{label_a} Mean = ${mean_a:.2f} (N={len(a)}) vs {label_b} Mean = ${mean_b:.2f} (N={len(b)}) "
             f"(Delta = ${diff_mean:.2f}, 95% CI: [${ci_lower:.2f}, ${ci_upper:.2f}], Cohen's d={cohens_d:.2f}). "
             + ("Difference is statistically significant." if is_significant else "Difference is NOT statistically significant.")
         )
@@ -164,8 +189,10 @@ class StatisticalEngine:
             "diff_mean": round(float(diff_mean), 2),
             "welch_t_stat": round(float(t_stat), 3),
             "welch_p_value": float(t_pval),
+            "welch_p_formatted": welch_p_str,
             "mann_whitney_u": float(u_stat),
             "mann_whitney_p_value": float(u_pval),
+            "mann_whitney_p_formatted": mann_p_str,
             "cohens_d": round(float(cohens_d), 3),
             "ci_95_lower": round(float(ci_lower), 2),
             "ci_95_upper": round(float(ci_upper), 2),
@@ -198,8 +225,10 @@ class StatisticalEngine:
             "num_channels": len(groups),
             "f_statistic": round(float(f_stat), 3),
             "f_p_value": float(f_pval),
+            "f_p_formatted": self.format_p_value(f_pval),
             "kruskal_statistic": round(float(kw_stat), 3),
             "kruskal_p_value": float(kw_pval),
+            "kruskal_p_formatted": self.format_p_value(kw_pval),
             "is_significant": bool(f_pval < self.alpha),
         }
 

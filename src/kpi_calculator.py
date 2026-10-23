@@ -77,16 +77,30 @@ class KPICalculator:
 
     @staticmethod
     def calculate_ltv_cac_ratio(ltv: float, cac: float) -> float:
-        """LTV to CAC Ratio = LTV / CAC. Benchmark benchmark healthy ratio is >= 3.0."""
+        """LTV to CAC Ratio = LTV / CAC. Benchmark healthy target is >= 3.0.
+        
+        Numerator: Cumulative LTV or ARPU ($).
+        Denominator: Customer Acquisition Cost ($).
+        """
         if cac <= 0:
             return 0.0
         return round(float(ltv / cac), 2)
 
     @staticmethod
-    def calculate_payback_months(cac: float, monthly_margin_per_customer: float) -> float:
-        """Payback Period (Months) = CAC / Monthly Gross Margin per Customer."""
+    def calculate_payback_months(cac: float, monthly_margin_per_customer: float) -> Optional[float]:
+        """Payback Period (Months) = CAC / Monthly Gross Margin per Customer.
+        
+        Numerator: CAC ($).
+        Denominator: Monthly gross margin realized per customer ($).
+        Attribution & Assumption:
+            Assumes steady-state margin realization across the observation horizon.
+        Returns:
+            Float representing recovery duration in months, or None if margin <= 0 (unrecoverable).
+        """
         if monthly_margin_per_customer <= 0:
-            return 999.0  # Infinite or unrecoverable
+            return None  # Unrecoverable when margin is zero or negative
+        if cac <= 0:
+            return 0.0
         return round(float(cac / monthly_margin_per_customer), 1)
 
     def calculate_channel_summary(
@@ -97,14 +111,35 @@ class KPICalculator:
     ) -> pd.DataFrame:
         """Compute comprehensive KPI performance table by marketing channel.
 
-        Args:
-            df_campaigns: Cleaned campaigns DataFrame.
-            df_leads: Cleaned customer leads DataFrame.
-            df_orders: Cleaned customer orders DataFrame.
+        Attribution Rule:
+            First-touch lead attribution: Customer transactions are joined via customer_id
+            to the initial channel that captured the qualified lead.
 
-        Returns:
-            Aggregated summary DataFrame with all KPIs.
+        Financial Formulas & Attribution:
+            - CTR: (total_clicks / total_impressions) * 100
+            - CPC: total_spend / total_clicks
+            - Lead-to-Customer CVR: (acquired_customers / total_leads) * 100
+            - CAC: total_spend / acquired_customers
+            - ARPU: total_net_revenue / acquired_customers
+            - ROAS: total_net_revenue / total_spend
+            - Net Campaign ROI: ((total_gross_profit - total_spend) / total_spend) * 100
+            - LTV:CAC Ratio: ARPU / CAC
+            - Payback Months: CAC / (total_gross_profit / customers / 4.0)
+
+        Cost Assumptions:
+            - COGS is standardized at 35% of GMV.
+            - Organic Search includes $50/day baseline inbound maintenance spend.
+            - Paid channels strictly isolate direct media ad spend.
         """
+        if df_campaigns.empty or df_leads.empty:
+            empty_cols = [
+                "channel", "total_spend", "total_impressions", "total_clicks", "ctr_pct", "cpc",
+                "total_leads", "acquired_customers", "avg_lead_score", "cvr_pct", "total_orders",
+                "total_net_revenue", "total_gross_profit", "cac", "arpu", "roas", "net_roi_pct",
+                "ltv_cac_ratio", "est_monthly_margin", "payback_months"
+            ]
+            return pd.DataFrame(columns=empty_cols)
+
         # 1. Channel Spend Aggregates
         c_agg = df_campaigns.groupby("channel", as_index=False).agg(
             total_spend=("ad_spend", "sum"),
@@ -124,13 +159,16 @@ class KPICalculator:
 
         # 3. Revenue & Gross Profit Aggregates
         cust_channel_map = df_leads.dropna(subset=["customer_id"])[["customer_id", "channel"]].drop_duplicates("customer_id")
-        orders_with_channel = df_orders.merge(cust_channel_map, on="customer_id", how="inner")
+        orders_with_channel = df_orders.merge(cust_channel_map, on="customer_id", how="inner") if not df_orders.empty else pd.DataFrame(columns=["channel", "order_id", "net_revenue", "gross_profit"])
 
-        r_agg = orders_with_channel.groupby("channel", as_index=False).agg(
-            total_orders=("order_id", "count"),
-            total_net_revenue=("net_revenue", "sum"),
-            total_gross_profit=("gross_profit", "sum"),
-        )
+        if not orders_with_channel.empty:
+            r_agg = orders_with_channel.groupby("channel", as_index=False).agg(
+                total_orders=("order_id", "count"),
+                total_net_revenue=("net_revenue", "sum"),
+                total_gross_profit=("gross_profit", "sum"),
+            )
+        else:
+            r_agg = pd.DataFrame(columns=["channel", "total_orders", "total_net_revenue", "total_gross_profit"])
 
         # Merge all aggregates
         summary = c_agg.merge(l_agg, on="channel", how="left").merge(r_agg, on="channel", how="left").fillna(0)
@@ -142,17 +180,38 @@ class KPICalculator:
         summary["net_roi_pct"] = summary.apply(lambda r: self.calculate_net_roi(r["total_gross_profit"], r["total_spend"]), axis=1)
         summary["ltv_cac_ratio"] = summary.apply(lambda r: self.calculate_ltv_cac_ratio(r["arpu"], r["cac"]), axis=1)
 
-        # Estimated monthly margin per customer = (total_gross_profit / customers) / 4 months
-        summary["est_monthly_margin"] = (summary["total_gross_profit"] / summary["acquired_customers"].replace(0, 1) / 4.0).round(2)
+        # Estimated monthly margin per customer over observation horizon (approx 4 months)
+        def calc_margin(row):
+            custs = row["acquired_customers"]
+            if custs <= 0:
+                return 0.0
+            return round(float(row["total_gross_profit"] / custs / 4.0), 2)
+
+        summary["est_monthly_margin"] = summary.apply(calc_margin, axis=1)
         summary["payback_months"] = summary.apply(lambda r: self.calculate_payback_months(r["cac"], r["est_monthly_margin"]), axis=1)
 
         return summary.sort_values(by="total_spend", ascending=False).reset_index(drop=True)
 
     def calculate_executive_totals(self, channel_summary: pd.DataFrame) -> Dict[str, Any]:
         """Compute high-level executive scorecard totals (Blended and Paid-Only)."""
-        tot_spend = float(channel_summary["total_spend"].sum())
-        tot_customers = int(channel_summary["acquired_customers"].sum())
-        tot_leads = int(channel_summary["total_leads"].sum())
+        if channel_summary.empty:
+            return {
+                "total_spend": 0.0,
+                "total_customers": 0,
+                "total_leads": 0,
+                "total_net_revenue": 0.0,
+                "total_gross_profit": 0.0,
+                "blended_cac": 0.0,
+                "blended_cvr_pct": 0.0,
+                "blended_roas": 0.0,
+                "blended_roi_pct": 0.0,
+                "blended_arpu": 0.0,
+                "paid_spend": 0.0,
+                "paid_customers": 0,
+                "paid_cac": 0.0,
+                "paid_roas": 0.0,
+                "paid_roi_pct": 0.0,
+            }
         tot_revenue = float(channel_summary["total_net_revenue"].sum())
         tot_profit = float(channel_summary["total_gross_profit"].sum())
 

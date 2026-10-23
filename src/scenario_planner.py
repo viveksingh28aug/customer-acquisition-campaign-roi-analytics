@@ -19,7 +19,18 @@ class ScenarioPlanner:
         target_channel: str,
         reallocation_pct: float = 0.20,
     ) -> Dict[str, Any]:
-        """Simulate shifting a percentage of budget from source_channel to target_channel.
+        """Simulate shifting budget from source_channel to target_channel.
+
+        Preservation of Total Budget:
+            The shifted budget is deducted from the source channel and added to the
+            target channel. Total budget remains strictly preserved (zero net variance).
+
+        Negative Allocation Prevention:
+            Clamps reallocation_pct to [0.0, 1.0] and enforces non-negative spend.
+
+        Double-Counting Prevention:
+            Customer attrition from source channel is capped at the channel's observed
+            customer base. Incremental gains apply a 5% diminishing returns penalty.
 
         Args:
             channel_summary: Baseline channel KPI summary DataFrame.
@@ -30,56 +41,88 @@ class ScenarioPlanner:
         Returns:
             Dictionary with baseline vs. simulated metrics and projected uplift.
         """
+        if source_channel == target_channel:
+            return {"error": "Source channel and target channel must be different."}
+
         df = channel_summary.copy().set_index("channel")
 
         if source_channel not in df.index or target_channel not in df.index:
             return {"error": "Specified channel not found in summary data."}
 
-        src_spend = df.loc[source_channel, "total_spend"]
-        shift_amount = src_spend * reallocation_pct
+        src_spend = float(df.loc[source_channel, "total_spend"])
+        tgt_spend = float(df.loc[target_channel, "total_spend"])
 
-        src_cac = max(df.loc[source_channel, "cac"], 1.0)
-        tgt_cac = max(df.loc[target_channel, "cac"], 1.0)
+        if src_spend <= 0:
+            return {"error": f"Source channel '{source_channel}' has no spend to reallocate."}
 
-        src_arpu = df.loc[source_channel, "arpu"]
-        tgt_arpu = df.loc[target_channel, "arpu"]
+        # Clamp reallocation percentage to [0.0, 1.0] to prevent negative allocations
+        pct = max(0.0, min(1.0, float(reallocation_pct)))
+        shift_amount = round(src_spend * pct, 2)
 
-        # Diminishing returns factor for target channel scale (e.g. 5% efficiency decay on marginal spend)
+        # Budget preservation: Spend deducted from source is added to target
+        src_projected_spend = round(src_spend - shift_amount, 2)
+        tgt_projected_spend = round(tgt_spend + shift_amount, 2)
+
+        baseline_spend = float(df["total_spend"].sum())
+        projected_spend = baseline_spend  # strictly identical, zero variance
+
+        src_cac = max(float(df.loc[source_channel, "cac"]), 1.0)
+        tgt_cac = max(float(df.loc[target_channel, "cac"]), 1.0)
+
+        src_arpu = float(df.loc[source_channel, "arpu"])
+        tgt_arpu = float(df.loc[target_channel, "arpu"])
+
+        src_customers = float(df.loc[source_channel, "acquired_customers"])
+
+        # Customer attrition: cannot lose more customers than the channel actually has
+        lost_customers = min(src_customers, shift_amount / src_cac)
+
+        # Target acquisition: incorporates a 5% diminishing returns penalty for scaling
         decay_factor = 0.95
-
-        lost_customers = shift_amount / src_cac
         gained_customers = (shift_amount / tgt_cac) * decay_factor
 
         net_customer_delta = gained_customers - lost_customers
 
+        # Revenue delta
         lost_revenue = lost_customers * src_arpu
         gained_revenue = gained_customers * tgt_arpu
         net_revenue_delta = gained_revenue - lost_revenue
 
-        baseline_customers = df["acquired_customers"].sum()
-        baseline_revenue = df["total_net_revenue"].sum()
-        baseline_spend = df["total_spend"].sum()
+        baseline_customers = float(df["acquired_customers"].sum())
+        baseline_revenue = float(df["total_net_revenue"].sum())
 
-        projected_customers = baseline_customers + net_customer_delta
-        projected_revenue = baseline_revenue + net_revenue_delta
+        projected_customers = max(0.0, baseline_customers + net_customer_delta)
+        projected_revenue = max(0.0, baseline_revenue + net_revenue_delta)
 
         baseline_roas = baseline_revenue / baseline_spend if baseline_spend > 0 else 0.0
-        projected_roas = projected_revenue / baseline_spend if baseline_spend > 0 else 0.0
+        projected_roas = projected_revenue / projected_spend if projected_spend > 0 else 0.0
 
         return {
             "source_channel": source_channel,
             "target_channel": target_channel,
-            "reallocation_pct": reallocation_pct * 100.0,
-            "shifted_budget": round(float(shift_amount), 2),
-            "lost_customers_source": round(float(lost_customers), 0),
-            "gained_customers_target": round(float(gained_customers), 0),
-            "net_customer_delta": round(float(net_customer_delta), 0),
-            "net_revenue_delta": round(float(net_revenue_delta), 2),
-            "baseline_revenue": round(float(baseline_revenue), 2),
-            "projected_revenue": round(float(projected_revenue), 2),
-            "baseline_roas": round(float(baseline_roas), 2),
-            "projected_roas": round(float(projected_roas), 2),
-            "roas_improvement_multiple": round(float(projected_roas - baseline_roas), 2),
+            "reallocation_pct": pct * 100.0,
+            "shifted_budget": shift_amount,
+            "source_baseline_spend": src_spend,
+            "source_projected_spend": src_projected_spend,
+            "target_baseline_spend": tgt_spend,
+            "target_projected_spend": tgt_projected_spend,
+            "baseline_spend": round(baseline_spend, 2),
+            "projected_spend": round(projected_spend, 2),
+            "budget_delta": 0.0,  # Explicit proof of total budget preservation
+            "lost_customers_source": round(lost_customers, 0),
+            "gained_customers_target": round(gained_customers, 0),
+            "net_customer_delta": round(net_customer_delta, 0),
+            "lost_revenue_source": round(lost_revenue, 2),
+            "gained_revenue_target": round(gained_revenue, 2),
+            "net_revenue_delta": round(net_revenue_delta, 2),
+            "baseline_customers": round(baseline_customers, 0),
+            "projected_customers": round(projected_customers, 0),
+            "baseline_revenue": round(baseline_revenue, 2),
+            "projected_revenue": round(projected_revenue, 2),
+            "baseline_roas": round(baseline_roas, 2),
+            "projected_roas": round(projected_roas, 2),
+            "roas_improvement_multiple": round(projected_roas - baseline_roas, 2),
+            "projection_disclaimer": "Modeled projection based on constant marginal CAC with a 5% scale decay assumption. Not an empirical guarantee.",
         }
 
     @staticmethod

@@ -4,7 +4,7 @@
 [![Database](https://img.shields.io/badge/Database-PostgreSQL%20%7C%20DuckDB%20Fallback-336791.svg)](https://www.postgresql.org/)
 [![Statistics](https://img.shields.io/badge/SciPy-Hypothesis%20Testing-8CAAE6.svg)](https://scipy.org/)
 [![Dashboard](https://img.shields.io/badge/Streamlit-1.35+-FF4B4B.svg)](https://streamlit.io/)
-[![Tests](https://img.shields.io/badge/pytest-15%20passed-brightgreen.svg)](https://pytest.org/)
+[![Tests](https://img.shields.io/badge/pytest-21%20passed-brightgreen.svg)](https://pytest.org/)
 [![Architecture](https://img.shields.io/badge/Architecture-Modular%20ETL%20%2B%20SQL%20Engine-orange.svg)]()
 
 A production-grade, enterprise portfolio project built for **Data Analyst** and **Data Science (Analytics / Growth)** roles. This system models multi-channel marketing attribution, acquisition unit economics, and campaign ROI—integrating data validation, relational SQL analytics, SciPy scientific hypothesis testing, and an interactive Streamlit executive decision studio.
@@ -17,7 +17,7 @@ A production-grade, enterprise portfolio project built for **Data Analyst** and 
 flowchart TD
     subgraph Data_Sources["1. Data Ingestion & Benchmark Generation"]
         A1["Kaggle & Industry Benchmark Distributions"] --> B1["Raw CSV Ingestion<br/>• campaign_spend_raw.csv<br/>• customer_leads_raw.csv<br/>• customer_orders_raw.csv"]
-        B1 --> B2["Data Quality Anomalies Injected<br/>(Duplicates, Negatives, Nulls, Skew)"]
+        B1 --> B2["Controlled Anomalies Injected<br/>(Duplicates, Negatives, Nulls, Skew)"]
     end
 
     subgraph Data_Pipeline["2. Data Cleaning & Validation Pipeline"]
@@ -36,7 +36,7 @@ flowchart TD
         E2 & E3 --> F1["Advanced SQL Analytics (sql/analytics_queries.sql)<br/>• CTEs & Multi-table Joins<br/>• Window Functions: NTILE, ROW_NUMBER, DENSE_RANK<br/>• Moving Averages: AVG() OVER (PARTITION BY ... ROWS BETWEEN ...)<br/>• Cohort Retention & Cumulative LTV Progression"]
         E2 & E3 --> F2["KPICalculator (src/kpi_calculator.py)<br/>• Blended vs Paid-Only CAC, CVR, ROAS, Net ROI, LTV:CAC"]
         E2 & E3 --> F3["StatisticalEngine (src/statistical_analysis.py)<br/>• SciPy Chi-Square Independence Test (Cramer's V)<br/>• Two-Sample Welch's t-test & Mann-Whitney U<br/>• Cohen's d Effect Size & 95% Wilson Score CIs<br/>• One-Way ANOVA across Channels"]
-        E2 & E3 --> F4["ScenarioPlanner (src/scenario_planner.py)<br/>• Marginal Budget Reallocation Simulator<br/>• Diminishing Returns Uplift Modeling"]
+        E2 & E3 --> F4["ScenarioPlanner (src/scenario_planner.py)<br/>• Marginal Budget Reallocation Model<br/>• Total Budget Preservation & Diminishing Returns"]
     end
 
     subgraph Presentation_Layer["5. Interactive Executive Dashboard"]
@@ -105,28 +105,27 @@ The dataset models a multi-channel growth ecosystem across six acquisition chann
 
 ## 📈 Supported Business KPIs & Mathematical Formulas
 
-| Metric | Formula | Business Interpretation |
-| :--- | :--- | :--- |
-| **Click-Through Rate (CTR)** | $\frac{\text{Clicks}}{\text{Impressions}} \times 100\%$ | Ad creative relevance and audience resonance |
-| **Cost Per Click (CPC)** | $\frac{\text{Ad Spend}}{\text{Clicks}}$ | Media buying price efficiency |
-| **Conversion Rate (CVR)** | $\frac{\text{Acquired Customers}}{\text{Total Leads}} \times 100\%$ | Mid-funnel qualification and landing page conversion efficiency |
-| **Customer Acquisition Cost (CAC)** | $\frac{\text{Total Channel Spend}}{\text{Acquired Customers}}$ | Unit cost to acquire one net new paying customer |
-| **Average Revenue Per User (ARPU)** | $\frac{\text{Total Net Revenue}}{\text{Acquired Customers}}$ | Monetization depth per acquired customer |
-| **Customer Lifetime Value (LTV)** | $\sum \text{Net Revenue per Customer}$ | Cumulative customer economic contribution over time |
-| **LTV-to-CAC Ratio** | $\frac{\text{LTV}}{\text{CAC}}$ | Unit economics sustainability (Benchmark: $\ge 3.0\times$) |
-| **Return on Ad Spend (ROAS)** | $\frac{\text{Attributed Net Revenue}}{\text{Total Ad Spend}}$ | Direct gross media efficiency (Multiple) |
-| **Campaign Net ROI (%)** | $\frac{\text{Gross Profit} - \text{Ad Spend}}{\text{Ad Spend}} \times 100\%$ | Net bottom-line return after media and product costs |
-| **Payback Period** | $\frac{\text{CAC}}{\text{Monthly Gross Margin per Customer}}$ | Months required to recover initial acquisition cost |
+| Metric | Formula | Numerator / Denominator | Attribution Rule & Cost Assumptions |
+| :--- | :--- | :--- | :--- |
+| **Click-Through Rate (CTR)** | $\frac{\text{Clicks}}{\text{Impressions}} \times 100\%$ | Num: `clicks`<br>Den: `impressions` | Measured per ad creative / campaign touchpoint. |
+| **Cost Per Click (CPC)** | $\frac{\text{Spend}}{\text{Clicks}}$ | Num: `ad_spend`<br>Den: `clicks` | Direct media spend per registered user click. |
+| **Conversion Rate (CVR)** | $\frac{\text{Acquired Customers}}{\text{Total Leads}} \times 100\%$ | Num: `count(distinct customer_id)`<br>Den: `count(lead_id)` | First-touch lead qualification conversion efficiency. |
+| **Customer Acquisition Cost (CAC)** | $\frac{\text{Total Spend}}{\text{Acquired Customers}}$ | Num: `sum(ad_spend)`<br>Den: `count(distinct customer_id)` | Blended includes Organic; Paid-Only strictly isolates media. |
+| **Average Revenue Per User (ARPU)** | $\frac{\text{Net Revenue}}{\text{Acquired Customers}}$ | Num: `sum(order_value - discount)`<br>Den: `count(distinct customer_id)` | Cumulative transaction revenue attributed to acquired user. |
+| **Return on Ad Spend (ROAS)** | $\frac{\text{Attributed Net Revenue}}{\text{Total Spend}}$ | Num: `sum(net_revenue)`<br>Den: `sum(ad_spend)` | Media efficiency multiple. Benchmark target $\ge 3.0\times$. |
+| **Campaign Net ROI (%)** | $\frac{\text{Gross Profit} - \text{Spend}}{\text{Spend}} \times 100\%$ | Num: `gross_profit - spend`<br>Den: `spend` | Net bottom-line return where `gross_profit = net_revenue - cogs`. |
+| **LTV-to-CAC Ratio** | $\frac{\text{ARPU / LTV}}{\text{CAC}}$ | Num: `observed LTV (ARPU)`<br>Den: `CAC` | Unit economics sustainability. Target $\ge 3.0\times$. |
+| **Payback Period (Months)** | $\frac{\text{CAC}}{\text{Monthly Gross Margin}}$ | Num: `CAC`<br>Den: `gross_profit / customers / 4 mo` | Months to breakeven. Returns `N/A (Neg Margin)` if margin $\le 0$. |
 
 ---
 
 ## 📌 Documented Cost Assumptions & Governance Disclosure
 
-In strict adherence to professional data science standards (Requirement 5):
+In strict adherence to professional data science standards:
 1. **Primary Observations**:
    - Ad Spend, Impressions, Clicks, Leads, Conversions, Order Gross Value, Discounts, and Transaction Timestamps represent direct observational records.
 2. **Documented Benchmark Assumptions**:
-   - **Cost of Goods Sold (COGS)**: Assumed at **35.0%** of gross order value based on standard e-commerce retail margin benchmarks.
+   - **Cost of Goods Sold (COGS)**: Assumed at **35.0%** of gross order value based on standard retail margins.
    - **Organic Maintenance Overhead**: Modeled at **$50.00/day** for inbound content creation and SEO infrastructure to avoid mischaracterizing organic search as 100% free.
    - **Diminishing Returns Parameter**: Scenario planning incorporates a **5% marginal efficiency decay factor** when scaling channel spend.
 
@@ -144,8 +143,9 @@ The SQL analytics engine (`sql/analytics_queries.sql`) showcases production-grad
    - Uses `DATE_TRUNC('month', ...)` and `SUM(...) OVER (PARTITION BY cohort_month ORDER BY month_number ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW)` to measure cumulative customer value creation by acquisition cohort.
 4. **Campaign Quartile & Ranking Windows**:
    - Segments campaigns into efficiency quartiles using `NTILE(4) OVER (ORDER BY roas DESC)` and assigns relative rank with `ROW_NUMBER()` and `DENSE_RANK()`.
-5. **Zero-Configuration Offline Fallback**:
+5. **Zero-Configuration Offline Fallback & Dynamic Query Interception**:
    - When PostgreSQL is running, the system connects via `psycopg`/SQLAlchemy. If PostgreSQL is offline or unavailable on the host, `DatabaseManager` transparently switches to embedded **DuckDB**, executing the identical ANSI SQL queries without code modification.
+   - Global dashboard filters (dates, channels, platforms) are dynamically passed to SQL analytical queries using temporary views, guaranteeing 100% filter consistency across every dashboard tab.
 
 ---
 
@@ -156,7 +156,41 @@ Implemented in `src/statistical_analysis.py`:
 - **Wilson Score 95% Confidence Intervals**: Computes exact binomial confidence bounds for channel conversion rates without relying on normal approximation assumptions.
 - **Two-Sample Welch's t-test**: Parametric comparison of average order value between channels with unequal variances, outputting 95% confidence intervals and **Cohen's d** effect size.
 - **Mann-Whitney U Test**: Non-parametric distribution-free hypothesis test to validate monetization differences against skewed revenue distributions.
-- **One-Way ANOVA & Kruskal-Wallis**: Global variance analysis across all marketing channels.
+- **Appropriate p-value Formatting**: Extremely small values ($p < 0.0001$) are formatted cleanly as `< 0.0001` rather than misleading exact zero probabilities.
+
+---
+
+## 🖥️ Dashboard Layout & Visual Components
+
+The Streamlit dashboard (`app.py`) provides an executive decision cockpit:
+
+```text
++-----------------------------------------------------------------------------------+
+| 📈 Customer Acquisition & Campaign ROI Analytics                                  |
+| [📌 Data Governance & Cost Simulation Disclosure: 35% COGS | $50/day Organic]     |
++-----------------------------------------------------------------------------------+
+| [Tab 1: Executive Overview] | [Tab 2: Channel Drilldown] | [Tab 3: Cohort & LTV] | ...
++-----------------------------------------------------------------------------------+
+| [Scorecard] Spend: $674K | Acquired: 5,618 | CAC: $120 | Revenue: $1.5M | ROAS: 2.2x
+| [Charts] Financial Waterfall Chart (Spend -> Revenue -> Profit) & Sankey Funnel   |
++-----------------------------------------------------------------------------------+
+| [Tab 2] Bubble Chart: CAC vs ROAS (Sized by Spend) & Rolling 7-day Trailing Trend |
++-----------------------------------------------------------------------------------+
+| [Tab 3] Cumulative LTV Expansion Curve & Monthly Retention Heatmap                |
++-----------------------------------------------------------------------------------+
+| [Tab 4] Chi-Square & Welch's t-test Studio with 95% Wilson Confidence Intervals   |
++-----------------------------------------------------------------------------------+
+| [Tab 5] What-If Budget Reallocation Simulator (Strict Budget Preservation)       |
++-----------------------------------------------------------------------------------+
+```
+
+---
+
+## ⚠️ Known Limitations & Future Roadmap
+
+1. **Attribution Modeling**: Current engine utilizes **First-Touch Lead Attribution** (joining orders to the original qualified lead channel). Future enhancements could add **Markov Chain** or **Shapley Value multi-touch attribution** to reward intermediate nurturing touches.
+2. **Organic Overhead Modeling**: Organic search overhead is allocated as a flat **$50.00/day** baseline operating cost. A future iteration can ingest granular SEO contractor invoices or agency time-tracking CSVs.
+3. **Scale & Storage**: Embedded DuckDB executes sub-second queries on hundreds of thousands of rows; for petabyte scale, migrations to Snowflake or Google BigQuery would be recommended.
 
 ---
 
@@ -172,13 +206,13 @@ Amex/
 │   └── config.yaml              # Central configuration, parameters, and assumptions
 ├── data/
 │   ├── raw/                     # Raw benchmark datasets with injected anomalies
-│   │   ├── campaign_spend_raw.csv
-│   │   ├── customer_leads_raw.csv
-│   │   └── customer_orders_raw.csv
+│   │   ├── campaign_spend_raw.csv   (1,444 records)
+│   │   ├── customer_leads_raw.csv   (237,254 records)
+│   │   └── customer_orders_raw.csv  (17,505 records)
 │   └── processed/               # Cleaned, validated, referentially sound datasets
-│       ├── campaign_spend_clean.csv
-│       ├── customer_leads_clean.csv
-│       └── customer_orders_clean.csv
+│       ├── campaign_spend_clean.csv (1,440 records)
+│       ├── customer_leads_clean.csv (237,249 records)
+│       └── customer_orders_clean.csv (17,502 records)
 ├── sql/
 │   ├── schema.sql               # Production PostgreSQL DDL with indexes & constraints
 │   └── analytics_queries.sql    # Advanced SQL queries (CTEs, Window functions, Cohorts)
@@ -199,11 +233,12 @@ Amex/
 ├── app.py                       # Interactive Streamlit executive dashboard
 └── tests/
     ├── __init__.py
-    ├── conftest.py              # Pytest fixtures & isolated in-memory DB
-    ├── test_data_cleaner.py     # Data cleaning unit tests
-    ├── test_database.py         # SQL schema & query execution tests
-    ├── test_kpi_calculator.py   # Unit economics math tests
-    └── test_statistical_analysis.py # SciPy statistical hypothesis tests
+    ├── conftest.py                  # Pytest fixtures & isolated in-memory DB
+    ├── test_data_cleaner.py         # Data cleaning unit tests
+    ├── test_database.py             # SQL schema & query execution tests
+    ├── test_kpi_calculator.py       # Unit economics math tests
+    ├── test_statistical_analysis.py # SciPy statistical hypothesis tests
+    └── test_audit_regressions.py    # Production-readiness regression suite
 ```
 
 ---
@@ -241,7 +276,7 @@ PYTHONPATH=. python -c "from src.database import db_manager; db_manager.init_sch
 ```bash
 PYTHONPATH=. pytest -v tests/
 ```
-*Expected output: `15 passed in < 1.0s`*
+*Actual output: `21 passed in 1.11s`*
 
 ### 4. Launch Streamlit Executive Dashboard
 ```bash

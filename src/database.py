@@ -192,6 +192,43 @@ class DatabaseManager:
         sql = self.load_named_query(query_name)
         return self.execute_query(sql)
 
+    def run_filtered_named_query(
+        self,
+        query_name: str,
+        df_campaigns: pd.DataFrame,
+        df_leads: pd.DataFrame,
+        df_orders: pd.DataFrame,
+    ) -> pd.DataFrame:
+        """Execute named analytical SQL query against filtered in-memory DataFrames.
+
+        Ensures full consistency with dashboard global filters across all tabs.
+        """
+        sql = self.load_named_query(query_name)
+
+        if self.engine_type == "duckdb" and self.duck_conn:
+            self.duck_conn.register("tmp_filtered_c", df_campaigns)
+            self.duck_conn.register("tmp_filtered_l", df_leads)
+            self.duck_conn.register("tmp_filtered_o", df_orders)
+
+            self.duck_conn.execute("CREATE OR REPLACE TEMPORARY VIEW campaign_spend AS SELECT * FROM tmp_filtered_c;")
+            self.duck_conn.execute("CREATE OR REPLACE TEMPORARY VIEW customer_leads AS SELECT * FROM tmp_filtered_l;")
+            self.duck_conn.execute("CREATE OR REPLACE TEMPORARY VIEW customer_orders AS SELECT * FROM tmp_filtered_o;")
+
+            try:
+                res = self.duck_conn.execute(sql).df()
+            finally:
+                self.duck_conn.execute("DROP VIEW IF EXISTS campaign_spend;")
+                self.duck_conn.execute("DROP VIEW IF EXISTS customer_leads;")
+                self.duck_conn.execute("DROP VIEW IF EXISTS customer_orders;")
+                self.duck_conn.unregister("tmp_filtered_c")
+                self.duck_conn.unregister("tmp_filtered_l")
+                self.duck_conn.unregister("tmp_filtered_o")
+
+            return res
+
+        # For PostgreSQL or other engines, fall back to default run_named_query
+        return self.run_named_query(query_name)
+
     def close(self) -> None:
         """Close connections."""
         if self.pg_conn:
