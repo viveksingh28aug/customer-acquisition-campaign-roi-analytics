@@ -29,51 +29,86 @@ class KPICalculator:
     @staticmethod
     def calculate_ctr(clicks: float, impressions: float) -> float:
         """Click-Through Rate (%) = (Clicks / Impressions) * 100."""
-        if impressions <= 0:
+        try:
+            c = float(clicks)
+            imp = float(impressions)
+            if not np.isfinite(c) or not np.isfinite(imp) or imp <= 0 or c <= 0:
+                return 0.0
+            return round(float((c / imp) * 100.0), 2)
+        except (ValueError, TypeError, ZeroDivisionError):
             return 0.0
-        return round(float((clicks / impressions) * 100.0), 2)
 
     @staticmethod
     def calculate_cpc(spend: float, clicks: float) -> float:
         """Cost Per Click ($) = Total Spend / Total Clicks."""
-        if clicks <= 0:
+        try:
+            s = float(spend)
+            c = float(clicks)
+            if not np.isfinite(s) or not np.isfinite(c) or c <= 0 or s <= 0:
+                return 0.0
+            return round(float(s / c), 2)
+        except (ValueError, TypeError, ZeroDivisionError):
             return 0.0
-        return round(float(spend / clicks), 2)
 
     @staticmethod
     def calculate_conversion_rate(conversions: float, total_opportunities: float) -> float:
         """Conversion Rate (%) = (Conversions / Opportunities) * 100."""
-        if total_opportunities <= 0:
+        try:
+            conv = float(conversions)
+            opp = float(total_opportunities)
+            if not np.isfinite(conv) or not np.isfinite(opp) or opp <= 0 or conv <= 0:
+                return 0.0
+            return round(float((conv / opp) * 100.0), 2)
+        except (ValueError, TypeError, ZeroDivisionError):
             return 0.0
-        return round(float((conversions / total_opportunities) * 100.0), 2)
 
     @staticmethod
     def calculate_cac(spend: float, customers: float) -> float:
         """Customer Acquisition Cost ($) = Total Marketing Spend / Acquired Customers."""
-        if customers <= 0:
+        try:
+            s = float(spend)
+            c = float(customers)
+            if not np.isfinite(s) or not np.isfinite(c) or c <= 0 or s <= 0:
+                return 0.0
+            return round(float(s / c), 2)
+        except (ValueError, TypeError, ZeroDivisionError):
             return 0.0
-        return round(float(spend / customers), 2)
 
     @staticmethod
     def calculate_arpu(net_revenue: float, customers: float) -> float:
         """Average Revenue Per User/Customer ($) = Net Revenue / Total Acquired Customers."""
-        if customers <= 0:
+        try:
+            rev = float(net_revenue)
+            c = float(customers)
+            if not np.isfinite(rev) or not np.isfinite(c) or c <= 0 or rev <= 0:
+                return 0.0
+            return round(float(rev / c), 2)
+        except (ValueError, TypeError, ZeroDivisionError):
             return 0.0
-        return round(float(net_revenue / customers), 2)
 
     @staticmethod
     def calculate_roas(net_revenue: float, spend: float) -> float:
         """Return on Ad Spend (Multiple) = Attributed Net Revenue / Marketing Spend."""
-        if spend <= 0:
+        try:
+            rev = float(net_revenue)
+            s = float(spend)
+            if not np.isfinite(rev) or not np.isfinite(s) or s <= 0:
+                return 0.0
+            return round(float(rev / s), 2)
+        except (ValueError, TypeError, ZeroDivisionError):
             return 0.0
-        return round(float(net_revenue / spend), 2)
 
     @staticmethod
     def calculate_net_roi(gross_profit: float, spend: float) -> float:
         """Campaign Net ROI (%) = ((Gross Profit - Marketing Spend) / Marketing Spend) * 100."""
-        if spend <= 0:
+        try:
+            gp = float(gross_profit)
+            s = float(spend)
+            if not np.isfinite(gp) or not np.isfinite(s) or s <= 0:
+                return 0.0
+            return round(float(((gp - s) / s) * 100.0), 2)
+        except (ValueError, TypeError, ZeroDivisionError):
             return 0.0
-        return round(float(((gross_profit - spend) / spend) * 100.0), 2)
 
     @staticmethod
     def calculate_ltv_cac_ratio(ltv: float, cac: float) -> float:
@@ -82,9 +117,14 @@ class KPICalculator:
         Numerator: Cumulative LTV or ARPU ($).
         Denominator: Customer Acquisition Cost ($).
         """
-        if cac <= 0:
+        try:
+            l_val = float(ltv)
+            c_val = float(cac)
+            if not np.isfinite(l_val) or not np.isfinite(c_val) or c_val <= 0:
+                return 0.0
+            return round(float(l_val / c_val), 2)
+        except (ValueError, TypeError, ZeroDivisionError):
             return 0.0
-        return round(float(ltv / cac), 2)
 
     @staticmethod
     def calculate_payback_months(cac: float, monthly_margin_per_customer: float) -> Optional[float]:
@@ -97,11 +137,16 @@ class KPICalculator:
         Returns:
             Float representing recovery duration in months, or None if margin <= 0 (unrecoverable).
         """
-        if monthly_margin_per_customer <= 0:
-            return None  # Unrecoverable when margin is zero or negative
-        if cac <= 0:
-            return 0.0
-        return round(float(cac / monthly_margin_per_customer), 1)
+        try:
+            c = float(cac)
+            m = float(monthly_margin_per_customer)
+            if not np.isfinite(c) or not np.isfinite(m) or m <= 0:
+                return None
+            if c <= 0:
+                return 0.0
+            return round(float(c / m), 1)
+        except (ValueError, TypeError, ZeroDivisionError):
+            return None
 
     def calculate_channel_summary(
         self,
@@ -194,7 +239,7 @@ class KPICalculator:
 
     def calculate_executive_totals(self, channel_summary: pd.DataFrame) -> Dict[str, Any]:
         """Compute high-level executive scorecard totals (Blended and Paid-Only)."""
-        if channel_summary.empty:
+        if channel_summary is None or channel_summary.empty:
             return {
                 "total_spend": 0.0,
                 "total_customers": 0,
@@ -213,11 +258,11 @@ class KPICalculator:
                 "paid_roi_pct": 0.0,
             }
 
-        tot_spend = float(channel_summary["total_spend"].sum())
-        tot_customers = int(channel_summary["acquired_customers"].sum())
-        tot_leads = int(channel_summary["total_leads"].sum())
-        tot_revenue = float(channel_summary["total_net_revenue"].sum())
-        tot_profit = float(channel_summary["total_gross_profit"].sum())
+        tot_spend = float(channel_summary["total_spend"].fillna(0).sum()) if "total_spend" in channel_summary.columns else 0.0
+        tot_customers = int(channel_summary["acquired_customers"].fillna(0).sum()) if "acquired_customers" in channel_summary.columns else 0
+        tot_leads = int(channel_summary["total_leads"].fillna(0).sum()) if "total_leads" in channel_summary.columns else 0
+        tot_revenue = float(channel_summary["total_net_revenue"].fillna(0).sum()) if "total_net_revenue" in channel_summary.columns else 0.0
+        tot_profit = float(channel_summary["total_gross_profit"].fillna(0).sum()) if "total_gross_profit" in channel_summary.columns else 0.0
 
         blended_cac = self.calculate_cac(tot_spend, tot_customers)
         blended_cvr = self.calculate_conversion_rate(tot_customers, tot_leads)
@@ -226,11 +271,11 @@ class KPICalculator:
         blended_arpu = self.calculate_arpu(tot_revenue, tot_customers)
 
         # Paid channels only (excluding Organic Search)
-        paid_summary = channel_summary[channel_summary["channel"] != "Organic Search"]
-        paid_spend = float(paid_summary["total_spend"].sum())
-        paid_customers = int(paid_summary["acquired_customers"].sum())
-        paid_revenue = float(paid_summary["total_net_revenue"].sum())
-        paid_profit = float(paid_summary["total_gross_profit"].sum())
+        paid_summary = channel_summary[channel_summary["channel"] != "Organic Search"] if "channel" in channel_summary.columns else pd.DataFrame()
+        paid_spend = float(paid_summary["total_spend"].fillna(0).sum()) if "total_spend" in paid_summary.columns else 0.0
+        paid_customers = int(paid_summary["acquired_customers"].fillna(0).sum()) if "acquired_customers" in paid_summary.columns else 0
+        paid_revenue = float(paid_summary["total_net_revenue"].fillna(0).sum()) if "total_net_revenue" in paid_summary.columns else 0.0
+        paid_profit = float(paid_summary["total_gross_profit"].fillna(0).sum()) if "total_gross_profit" in paid_summary.columns else 0.0
 
         paid_cac = self.calculate_cac(paid_spend, paid_customers)
         paid_roas = self.calculate_roas(paid_revenue, paid_spend)

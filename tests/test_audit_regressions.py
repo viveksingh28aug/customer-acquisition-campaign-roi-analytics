@@ -111,3 +111,61 @@ def test_filtered_query_duckdb(memory_db_manager, sample_campaigns_raw, sample_l
     # Verify physical base tables remain intact
     full_res = memory_db_manager.run_named_query("channel_performance_kpis")
     assert len(full_res) >= 2
+
+
+def test_executive_totals_edge_cases():
+    """Verify calculate_executive_totals handles zero customers, NaNs, missing columns, and None."""
+    calc = KPICalculator()
+
+    # 1. Zero customers scenario
+    zero_cust_df = pd.DataFrame([
+        {"channel": "Meta Ads", "total_spend": 5000.0, "acquired_customers": 0, "total_leads": 100, "total_net_revenue": 0.0, "total_gross_profit": 0.0},
+        {"channel": "Google Search", "total_spend": 3000.0, "acquired_customers": 0, "total_leads": 50, "total_net_revenue": 0.0, "total_gross_profit": 0.0},
+    ])
+    totals = calc.calculate_executive_totals(zero_cust_df)
+    assert totals["total_spend"] == 8000.0
+    assert totals["total_customers"] == 0
+    assert totals["blended_cac"] == 0.0  # Safe zero division
+    assert totals["blended_cvr_pct"] == 0.0
+    assert totals["blended_arpu"] == 0.0
+
+    # 2. DataFrame with NaNs
+    nan_df = pd.DataFrame([
+        {"channel": "Meta Ads", "total_spend": 5000.0, "acquired_customers": np.nan, "total_leads": 100, "total_net_revenue": np.nan, "total_gross_profit": 1000.0},
+        {"channel": "Organic Search", "total_spend": np.nan, "acquired_customers": 50, "total_leads": np.nan, "total_net_revenue": 5000.0, "total_gross_profit": np.nan},
+    ])
+    totals_nan = calc.calculate_executive_totals(nan_df)
+    assert totals_nan["total_spend"] == 5000.0
+    assert totals_nan["total_customers"] == 50
+    assert totals_nan["blended_cac"] == 100.0  # 5000 / 50
+    assert totals_nan["paid_spend"] == 5000.0
+    assert totals_nan["paid_customers"] == 0
+
+    # 3. None input
+    totals_none = calc.calculate_executive_totals(None)
+    assert totals_none["total_spend"] == 0.0
+    assert totals_none["blended_cac"] == 0.0
+
+    # 4. DataFrame missing expected columns entirely
+    incomplete_df = pd.DataFrame({"random_col": [1, 2, 3]})
+    totals_incomplete = calc.calculate_executive_totals(incomplete_df)
+    assert totals_incomplete["total_spend"] == 0.0
+    assert totals_incomplete["total_customers"] == 0
+    assert totals_incomplete["blended_cac"] == 0.0
+
+
+def test_calculate_cac_robustness():
+    """Verify calculate_cac handles inf, nan, string, negative, and None safely."""
+    calc = KPICalculator()
+    assert calc.calculate_cac(spend=1000.0, customers=20) == 50.0
+    assert calc.calculate_cac(spend=1000.0, customers=0) == 0.0
+    assert calc.calculate_cac(spend=1000.0, customers=-5) == 0.0
+    assert calc.calculate_cac(spend=-1000.0, customers=20) == 0.0
+    assert calc.calculate_cac(spend=0.0, customers=20) == 0.0
+    assert calc.calculate_cac(spend=None, customers=20) == 0.0
+    assert calc.calculate_cac(spend=1000.0, customers=None) == 0.0
+    assert calc.calculate_cac(spend=float("nan"), customers=20) == 0.0
+    assert calc.calculate_cac(spend=1000.0, customers=float("nan")) == 0.0
+    assert calc.calculate_cac(spend=float("inf"), customers=20) == 0.0
+    assert calc.calculate_cac(spend=1000.0, customers=float("inf")) == 0.0
+
